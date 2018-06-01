@@ -1,0 +1,28 @@
+﻿A. Danh sách
+	1. Nguyễn Thị Thùy Linh	
+	2. Nguyễn Văn Lộc (Lead)
+	3. Phan Cảnh Quang Hưng
+	4. Nguyễn Văn Luân
+B. Công nghệ:
+ - Backend: Web API Asp.Net (MVC): code first, data first, entity framework, dapper: Làm chung
+ - DB: MySql
+ - Dựng DB: Lộc
+ - Fontend: AngularJS 2: Làm chung
+ - Quản lý source bẳng github
+ - Visual 2015, power designer
+C. Yêu cầu: Xây dựng trang web bán hàng trực tuyến
+	+ Trang dánh cho quản lý: Add/edit/delete/export/print/report/chart....
+	+ Trang dành cho người mua: search, view, order, manage order, filter ....
+D. Kế hoạch
+ - Phân chia công việc
+ - Phân tích yêu cầu hệ thống, tìm hiểu công nghệ
+ - Thiết kế DB, dựng cầu trúc source code
+ - Coding, test
+ - Review (weekly, final)
+ - Report and evaluation
+E. Đánh giá:
+ - Products: 50%
+ - Teamwork: 20%
+ - QA: 20%
+ - Bonus: 10%
+ 
