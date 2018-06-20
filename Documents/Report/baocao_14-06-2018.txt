@@ -1,0 +1,58 @@
+﻿Report
+* project:
+- Tìm hiểu ASP.NET (60%)
+- Tìm hiểu WEB API (60%)
+- Thiết kế sơ đồ chức năng (usecase).(80%)
+- dựng cơ sở dữ liệu.(80%)
+- code back-end.(20%)
+- tìm hiểu angularjs2.(20%)
+- code Front-end.(20%)
+- test.(0%)
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+****ASP.NET Web API *****
+1. Nguyen Van Loc - 14/06/2018  
+2. Phan Cảnh Quang Hưng - 14/06/2018
+* Task:
+- Tạo Library BookSale.Model
+- Tạo Library BookSale.Data 
+* Detail:
+- Tạo modal (40%)
+- Tạo Data (40%)
+* ETC: 1d
+* Have trouble :N/A
+* Need support: N/A
+* Next task: Tạo BookSale.Service
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+**** AngularJS2 Web client*****
+3. Nguyen Thi Thuy Linh - 14/06/2018
+* Task:
+ - tìm hiểu angularjs 2 và cài đặt môi trường làm việc
+* Detail:
+- Khái niệm Angularjs 2 (40%)
+- Cài đặt môi trường (20%)
+- Các thành phần ứng dụng (20%)
+* ETC: 2d
+* Have trouble :N/A
+* Need support: N/A
+* Next task: code frond-end
+
+4. Nguyen Van Luân - 14/06/2018
+* Task:
+- Tìm hiểu AngularJS
+* Detail:
+   + Global Namespace 80%
+   + Khởi tạo Model, Controller 60%
+   + Dependecy injection 60%
+   + Scope Service 60%
+   + Dependency injection Minify 60%
+   + Array và Array chứa Function 40%
+* ETC: 1d
+* Have trouble :N/A
+* Need support: N/A
+* Next task: code frond-end
+-------------------------------------------------------------------------
+

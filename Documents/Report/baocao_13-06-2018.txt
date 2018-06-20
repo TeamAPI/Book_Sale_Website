@@ -1,0 +1,73 @@
+﻿Report
+* project:
+- Tìm hiểu ASP.NET (75%)
+- Tìm hiểu WEB API (75%)
+- Thiết kế sơ đồ chức năng (usecase).(80%)
+- dựng cơ sở dữ liệu.(80%)
+- code back-end.(20%)
+- tìm hiểu angularjs2.(2.5%)
+- code Front-end.(2.5%)
+- test.(0%)
+
+-------------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+* Task chung:
+* Detail:
+* ETC: N/A
+* Have trouble :N/A
+* Need support: N/A
+* Next task: code back-end (chức năng tìm kiếm sản phẩm, quản lý giỏ hàng ,đặt hàng,quản lý thông tin tài khoản khách hàng)
+-------------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+1. Nguyen Van Loc - 13/06/2018 (chưa làm được gì thêm: lý do bệnh)
+* Task:
+- Ứng dụng kiến thức WEB API ASP.NET MVC và Entity Framework viết thử đăng ký tài khoản khách hàng và tạo tài khoản nhân viên
+* Detail:
+- Tạo controller (40%)
+- Tạo modal (20%)
+* ETC: 0.8d
+* Have trouble :N/A
+* Need support: N/A
+* Next task:
+
+-------------------------------------------------------------------------
+2. Phan Cảnh Quang Hưng - 13/06/2018 (chưa làm được gì thêm: lý do bệnh)
+* Task:
+- Ứng dụng kiến thức WEB API ASP.NET MVC và Entity Framework viết thử đăng nhập
+* Detail:
+- Tạo controller (45%)
+- Tạo modal (25%)
+* ETC: 0.5d
+* Have trouble :N/A
+* Need support: N/A
+* Next task:
+-------------------------------------------------------------------------
+3. Nguyen Thi Thuy Linh - 13/06/2018 (chưa làm được gì thêm: bận việc nhà phải về quê)
+* Task:
+- Tìm hiểu WEB API cách controller xuất ra json
+- Ứng dụng kiến thức WEB API ASP.NET MVC và Entity Framework viết thử đăng ký tài khoản khách hàng và tạo tài khoản nhân viên
+* Detail:
+- Tạo controller (40%)
+- Tạo modal (20%)
+* ETC: 0.8d
+* Have trouble : N/A
+* Need support: N/A
+* Next task:
+
+-------------------------------------------------------------------------
+4. Nguyen Van Luân - 13/06/2018
+* Task:
+- Tìm hiểu AngularJS
+* Detail:
+   + Global Namespace 80%
+   + Khởi tạo Model, Controller 70%
+   + Dependecy injection 70%
+   + Scope Service 60%
+   + Dependency injection Minify 60%
+   + Array và Array chứa Function 40%
+* ETC: 1d
+* Have trouble :N/A
+* Need support: N/A
+* Next task:code frond-end
