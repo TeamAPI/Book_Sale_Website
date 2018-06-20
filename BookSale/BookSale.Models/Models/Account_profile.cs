@@ -4,8 +4,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookSale.Models.Models
 {
-    [Table("account_profile")]
-    public class Account_profile
+    [Table("Account_Profiles")]
+    public class Account_Profile
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

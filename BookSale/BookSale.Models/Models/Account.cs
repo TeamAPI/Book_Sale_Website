@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookSale.Models.Models
 {
-    [Table("account")]
+    [Table("Accounts")]
     public class Account : Auditable
     {
         [Key]
@@ -30,8 +30,8 @@ namespace BookSale.Models.Models
 
         public virtual IEnumerable<Auditable> Auditables { set; get; }
 
-        public virtual IEnumerable<Account_permission> Account_Permissions{ set; get; }
+        public virtual IEnumerable<Account_Permission> Account_Permissions{ set; get; }
 
-        public virtual IEnumerable<Account_profile> Account_Profiles { set; get; }
+        public virtual IEnumerable<Account_Profile> Account_Profiles { set; get; }
     }
 }

@@ -5,8 +5,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookSale.Models.Models
 {
-    [Table("permission_access")]
-    public class Permission_access : Auditable
+    [Table("Permission_Access")]
+    public class Permission_Access : Auditable
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -19,6 +19,6 @@ namespace BookSale.Models.Models
         [MaxLength(200)]
         public string Description { set; get; }
 
-        public virtual IEnumerable<Account_permission> account_permissions { set; get; }
+        public virtual IEnumerable<Account_Permission> account_permissions { set; get; }
     }
 }

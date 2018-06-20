@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookSale.Models.Models
 {
-    [Table("ShoppingCart")]
+    [Table("ShoppingCarts")]
     public class ShoppingCart : Auditable
     {
         [Key]
@@ -18,6 +18,6 @@ namespace BookSale.Models.Models
 
         public decimal Sho_totalcost { set; get; }
 
-        public virtual IEnumerable<ShoppingCart_details> ShoppingCart_details { set; get; }
+        public virtual IEnumerable<ShoppingCart_Detail> ShoppingCart_details { set; get; }
     }
 }

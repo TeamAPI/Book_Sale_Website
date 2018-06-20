@@ -1,0 +1,86 @@
+﻿Report
+* project:
+- tìm hiểu ASP.NET (75%)
+- Tìm hiểu WEB API và Dapper (70%)
+- Thiết kế sơ đồ chức năng (usecase).(80%)
+- dựng cơ sở dữ liệu.(75%)
+- code back-end.(10%)
+- tìm hiểu angularjs2.(0%)
+- code Front-end.(0%)
+- test.(0%)
+
+1. Nguyen Van Loc - 06/06/2018
+* Task:
+- Ôn lại WebAPI, ASP.Net MVC
+- Tìm hiểu dapper	
+- chỉnh sửa Database
+* Detail:
+- Khái niệm về web api (50%)
+- Cách dựng project (40%) 
+- Phương thức hoạt động (60%)
+- Khái niệm về MVC (50%)
+- Cách dựng project với MVC (C#) (50%) 
+- Phương thức hoạt động (40%)
+- Khái niệm dapper là gì (60%)
+- Cú pháp của dapper (40%)
+- Cách sử dụng dapper trong project ASP.NET (40%)
+- chỉnh sữa lại DB (60%)
+* ETC: 2d
+* Have trouble :N/A
+* Need support: N/A
+* Next task:  Ứng dụng kiến thức WEB API ASP.NET MVC và Dapper viết thử đăng ký tài khoản khách hàng và tạo tài khoản nhân viên
+
+-------------------------------------------------------------------------
+2. Phan Cảnh Quang Hưng - 06/06/2018
+* Task:
+- Ôn lại WEB API
+- Ôn lại ASP.NET MVC	
+- Tạo project trên GitHub
+* Detail:
+- Khái niệm về web api (80%)
+- Khái niệm về ASP.NET MVC (80%)
+- Cách thức phân bô trong ASP MVC (70%)
+- Cách thức tạo đối tượng trong mô hình class diagram vào WEB API(90%)
+- Cách sử dụng dapper trong project ASP.NET (60%)
+- Cách sử dụng Github(Chia nhánh, tạo protect, update dữ liệu, lấy dữ liệu về ) (80%) 
+* ETC: 1d
+* Have trouble :N/A
+* Need support: N/A
+* Next task: Ứng dụng kiến thức WEB API ASP.NET MVC và Dapper viết thử đăng nhập
+
+-------------------------------------------------------------------------
+3. Nguyen Thi Thuy Linh - 06/06/2018
+- Ôn lại WEB API
+- Ôn lại ASP.NET MVC	
+- Tìm hiểu Dapper
+* Detail:
+- Khái niệm về Web API (80%)
+- Cách dựng Project Web API (60%)
+- Phương thức hoạt động (60%)
+- Khái niệm ASP.NET MVC (80%)
+- Cách dựng Project ASP.NET MVC (60%)
+- Phương thức hoạt động (60%)
+- Khái niệm Dapper (80%)
+- Cú pháp của Dapper (60%)
+- Cách sử dụng Dapper trong project ASP.NET (60%)
+* ETC: 1d
+* Have trouble : N/A
+* Need support: N/A
+* Next task: Ứng dụng kiến thức WEB API ASP.NET MVC và Dapper viết thử đăng ký tài khoản khách hàng và tạo tài khoản nhân viên
+
+-------------------------------------------------------------------------
+4. Nguyen Van Luân - 06/06/2018
+* Task:
+- ôn lại Web API và Web MVC tiếp theo
+- Tìm hiểu dapper	
+* Detail:
+- Thực hành chuyển template vào Area admin (80%)
+- hiểu được phân chia khu vực cho admin (80%)
+- hiểu được cách sử dụng @renderBody(), @RenderSection() (80%)
+- So sánh được sự khác biệt giữa Web API với Web MVC (60%)
+- dapper: hiểu lý thuyết các example (60%)
+* ETC: 1d
+* Have trouble : Thực hành connect mysql chưa được, tối nay sẽ xem lại phần này.
+* Need support: N/A
+* Next task: Ứng dụng kiến thức WEB API ASP.NET MVC và Dapper viết thử đăng nhập.
+
