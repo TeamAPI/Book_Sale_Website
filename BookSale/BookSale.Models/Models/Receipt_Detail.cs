@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace BookSale.Models.Models
 {
+    [Table("Receipt_Details")]
     public class Receipt_Detail
     {
         public int Rec_ID { set; get; }

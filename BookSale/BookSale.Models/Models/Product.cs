@@ -6,7 +6,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookSale.Models.Models
 {
-    [Table("product")]
+    [Table("Products")]
     public class Product : Auditable
     {
         [Key]
@@ -48,7 +48,7 @@ namespace BookSale.Models.Models
         public virtual Supplyhouse Supplyhouses { set; get; }
 
 
-        public virtual IEnumerable<Order_details> Order_details { set; get; }
+        public virtual IEnumerable<Order_Detail> Order_details { set; get; }
 
         public virtual IEnumerable<Product_Price> Product_Price{ set; get; }
 
@@ -58,5 +58,4 @@ namespace BookSale.Models.Models
 
         public virtual IEnumerable<Receipt_Detail> Receipt_details{ set; get; }
     }
-}
 }

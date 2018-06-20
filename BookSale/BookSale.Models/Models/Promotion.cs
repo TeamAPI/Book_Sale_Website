@@ -7,7 +7,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookSale.Model.Models
 {
-    [Table("Promotion")]
+    [Table("Promotions")]
     public class Promotion : Auditable
     {
         [Key]
@@ -25,7 +25,7 @@ namespace BookSale.Model.Models
 
         public DateTime Promo_Finishdate { set; get; }
 
-        public virtual IEnumerable<Order_details> Order_Details { set; get; }
+        public virtual IEnumerable<Order_Detail> Order_Details { set; get; }
 
         public virtual IEnumerable<Promotion_Product> Promotion_Products { set; get; }
     }
