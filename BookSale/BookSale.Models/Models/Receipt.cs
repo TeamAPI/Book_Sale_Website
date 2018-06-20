@@ -5,6 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookSale.Models.Models
 {
+    [Table("Receipts")]
     public class Receipt : Auditable
     {
         [Key]

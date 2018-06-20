@@ -3,8 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookSale.Models.Models
 {
-    [Table("account_permission")]
-    public class Account_permission
+    [Table("Account_Permissions")]
+    public class Account_Permission
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -15,7 +15,7 @@ namespace BookSale.Models.Models
         public int Per_ID { set; get; }
 
         [ForeignKey("Per_ID")]
-        public virtual Permission_access Permissions { set; get; }
+        public virtual Permission_Access Permissions { set; get; }
         [ForeignKey("Acc_ID")]
         public virtual Account Accounts { set; get; }
     }

@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace BookSale.Models.Models
 {
-    [Table("warehouse")]
+    [Table("Warehouses")]
     public class Warehouse
     {
         [Key]

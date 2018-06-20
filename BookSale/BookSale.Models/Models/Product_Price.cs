@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace BookSale.Models.Models
 {
-    [Table("Product_Price")]
+    [Table("Product_Prices")]
     public class Product_Price: Auditable
     {
         [Key]
