@@ -8,12 +8,12 @@ using System.Threading.Tasks;
 
 namespace BookSale.Data.Repositories
 {
-    public interface IAccountRepository : IRepository<Account>
+    public interface IFooterRepository : IRepository<Footer>
     {
     }
-   public class AccountRepository : RepositoryBase<Account>, IAccountRepository
+    public class FooterRepository : RepositoryBase<Footer>, IFooterRepository
     {
-        public AccountRepository(IDbFactory dbFactory) : base(dbFactory)
+        public FooterRepository(IDbFactory dbFactory) : base(dbFactory)
         {
         }
     }

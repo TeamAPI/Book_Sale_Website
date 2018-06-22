@@ -11,7 +11,6 @@ namespace BookSale.Model.Models
     public class Promotion : Auditable
     {
         [Key]
-        [MaxLength(20)]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Promo_ID { set; get; }
 

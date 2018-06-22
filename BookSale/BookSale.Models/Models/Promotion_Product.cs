@@ -12,7 +12,7 @@ namespace BookSale.Models.Models
         public int Pro_Promo_ID { set; get; }
 
         public int Pro_ID { set; get; }
-        public int Pomo_ID { set; get; }
+        public int Promo_ID { set; get; }
 
         [ForeignKey("Pro_ID")]
         public virtual Product Products { set; get; }
