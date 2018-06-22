@@ -59,6 +59,10 @@
     <Compile Include="Models\Menu.cs" />
     <Compile Include="Models\MenuGroup.cs" />
     <Compile Include="Models\Promotion_Product.cs" />
+<<<<<<< HEAD:BookSale/BookSale.Models/BookSale.Models.csproj
+    <Compile Include="Models\ShoppingCart_Detail.cs" />
+=======
+>>>>>>> a858cc096e2caa84237889930ef5ccdf417a89b4:BookSale/BookSale.Models/BookSale.Models.csproj
     <Compile Include="Models\ShoppingCart.cs" />
     <Compile Include="Models\Order.cs" />
     <Compile Include="Models\Order_Detail.cs" />
