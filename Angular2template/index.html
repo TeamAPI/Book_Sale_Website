@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <title>Đăng ký tài khoản mới</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- 1. Load libraries -->
+     <!-- Polyfill(s) for older browsers -->
+    <script src="node_modules/core-js/client/shim.min.js"></script>
+    <script src="node_modules/zone.js/dist/zone.js"></script>
+    <script src="node_modules/reflect-metadata/Reflect.js"></script>
+    <script src="node_modules/systemjs/dist/system.src.js"></script>
+           
+  </head>
+  <!-- 3. Display the application -->
+  <body>
+    <my-app>
+    
+    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Đăng ký</button>
+    <!-- Modal -->
+    <div id="myModal" class="modal fade" role="dialog">
+      <div class="modal-dialog">
+    
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+            <font color="#369">
+            <center style="font-size: 35px">ĐĂNG KÝ TÀI KHOẢN</center>
+            
+          </div>
+          <div style="margin:5px 10px 10px 10px ">  
+           <div>
+            <label for='Họ và tên'>Họ và tên:</label> 
+            <input type="Họ và tên" class="form-control" id="Họ và tên" placeholder="Họ và tên" name="Mật khẩu">
+          </div>
+          <div>
+            <label for="email">Email:</label> 
+            <input type="email" class="form-control" id="email" name="email">
+          </div>
+          <div>
+            <label for="Mật khẩu">Mật khẩu:</label> 
+            <input type="Mật khẩu" class="form-control" id="Mật khẩu" name="Mật khẩu">
+          </div>
+          <div>
+            <label for="Xác nhận mật khẩu">Xác nhận mật khẩu:</label> 
+            <input type="Xác nhận mật khẩu" class="form-control" id="Xác nhận mật khẩu" name="Xác nhận mật khẩu">
+          </div>
+          <div>
+            <label for="Ngày sinh">Ngày sinh:</label> 
+            <input type="date" class="form-control" id="Ngày sinh" name="Ngày sinh">
+          </div>
+          <div>
+            <label for="Giới tính">Giới tính:</label>
+          </div>
+          <div class="radio">
+              <label><input type="radio" name="optradio">Nam</label>
+            </div>
+            <div class="radio">
+                <label><input type="radio" name="optradio">Nữ</label>
+            </div> 
+          
+          
+          <div>
+              <center >
+                
+              <button style="font-size: 20px" type="button" class="btn btn-default" data-dismiss="modal">Đăng ký</button>
+                
+            </center>
+          </div>
+        </font>
+        </div>
+        </div>  
+    
+      </div>
+    </div>
+    </my-app>
+  </body>
+</html>
