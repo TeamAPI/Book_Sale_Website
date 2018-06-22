@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -11,3 +12,12 @@ namespace BookSale.Data.Infrastructure
         void commit();
     }
 }
+=======
+﻿namespace BookSale.Data.Infrastructure
+{
+    public interface IUnitOfWork
+    {
+        void Commit();
+    }
+}
+>>>>>>> a858cc096e2caa84237889930ef5ccdf417a89b4

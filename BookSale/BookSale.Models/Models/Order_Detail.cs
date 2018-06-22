@@ -5,8 +5,13 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookSale.Models.Models
 {
+<<<<<<< HEAD:BookSale/BookSale.Models/Models/Order_Detail.cs
     [Table("order_Details")]
     public class Order_Detail 
+=======
+    [Table("Order_Details")]
+    public class Order_Detail
+>>>>>>> a858cc096e2caa84237889930ef5ccdf417a89b4:BookSale/BookSale.Models/Models/Order_Detail.cs
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

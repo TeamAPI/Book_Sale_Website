@@ -4,7 +4,11 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookSale.Models.Models
 {
+<<<<<<< HEAD
     [Table("Account_Profiles")]
+=======
+    [Table("account_Profiles")]
+>>>>>>> a858cc096e2caa84237889930ef5ccdf417a89b4
     public class Account_Profile
     {
         [Key]

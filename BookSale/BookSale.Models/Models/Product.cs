@@ -59,4 +59,3 @@ namespace BookSale.Models.Models
         public virtual IEnumerable<Receipt_Detail> Receipt_details{ set; get; }
     }
 }
-}

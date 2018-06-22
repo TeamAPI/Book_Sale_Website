@@ -1,0 +1,76 @@
+﻿Report
+* project:
+- tìm hiểu ASP.NET (75%)
+- Tìm hiểu WEB API và Dapper (70%)
+- Thiết kế sơ đồ chức năng (usecase).(80%)
+- dựng cơ sở dữ liệu.(75%)
+- code back-end.(10%)
+- tìm hiểu angularjs2.(0%)
+- code Front-end.(0%)
+- test.(0%)
+
+-------------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+* Task chung:
+- Ôn lại dapper
+* Detail:
+- Cú pháp của dapper (40%)
+- Cách sử dụng dapper trong project ASP.NET (35%)
+* ETC: 2d
+* Have trouble :N/A
+* Need support: N/A
+* Next task:  tìm hiểu cách mà phía frontend gọi và lấy file JSON để hiển thị lên View ANGULAR
+
+-------------------------------------------------------------------------
+
+-------------------------------------------------------------------------
+1. Nguyen Van Loc - 06/06/2018
+* Task:
+- chỉnh sửa Database
+* Detail:
+- chỉnh sữa lại DB (35%)
+* ETC: 1d
+* Have trouble :N/A
+* Need support: N/A
+* Next task:  Ứng dụng kiến thức WEB API ASP.NET MVC và Dapper viết thử đăng ký tài khoản khách hàng và tạo tài khoản nhân viên
+
+-------------------------------------------------------------------------
+2. Phan Cảnh Quang Hưng - 06/06/2018
+* Task:
+- Tạo project trên GitHub(tt)
+- Tạo cây xây dựng dự án
+* Detail:
+- Tạo project trên GitHub(tt).50%;
+- Tạo cây xây dựng dự án. 40%
+* ETC: 1d
+* Have trouble :N/A
+* Need support: N/A
+* Next task: Ứng dụng kiến thức WEB API ASP.NET MVC và Dapper viết thử đăng nhập
+
+-------------------------------------------------------------------------
+3. Nguyen Thi Thuy Linh - 06/06/2018
+* Task:
+- Tìm hiểu WEB API cách controller xuất ra json
+* Detail:
+- khái niệm controller, Model 60%
+- cách thức hoạt động của controller, Model  60%s
+- Cách controller xuất ra một file JSON 30%
+* ETC: 1d
+* Have trouble : N/A
+* Need support: N/A
+* Next task: Ứng dụng kiến thức WEB API ASP.NET MVC và Dapper viết thử đăng ký tài khoản khách hàng và tạo tài khoản nhân viên
+
+-------------------------------------------------------------------------
+4. Nguyen Van Luân - 06/06/2018
+* Task:
+- Tìm hiểu WEB API cách controller xuất ra json
+* Detail:
+- khái niệm controller, Model 60%
+- cách thức hoạt động của controller, Model  60%s
+- Cách controller xuất ra một file JSON 30%
+* ETC: 1d
+* Have trouble :
+* Need support: N/A
+* Next task: Ứng dụng kiến thức WEB API ASP.NET MVC và Dapper viết thử đăng nhập.
+
