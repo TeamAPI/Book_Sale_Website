@@ -1,20 +1,20 @@
 ﻿using BookSale.Data.Infrastructure;
 using BookSale.Models.Models;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
-namespace BookSale.Data.Repository
+namespace BookSale.Data.Repositories
 {
-    public interface IAccountRepository
+    public interface IAccountRepository : IRepository<Account>
     {
-        // Viết phương thức thêm nếu chưa có sẳng
-
     }
-    public class AccountRepository : RepositoryBase<Account> , IAccountRepository
+   public class AccountRepository : RepositoryBase<Account>, IAccountRepository
     {
         public AccountRepository(IDbFactory dbFactory) : base(dbFactory)
         {
         }
     }
-
-    //
-    //Triển khai phương thức trên iterface
 }

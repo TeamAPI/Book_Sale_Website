@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -10,6 +11,10 @@ namespace BookSale.Models.Models
     [Table("Receipt_Details")]
     public class Receipt_Detail
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+        public int Rec_Det_ID { set; get; }
+
         public int Rec_ID { set; get; }
         public int? Pro_ID { set; get; }
         public int Quantity { set; get; }

@@ -5,13 +5,12 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace BookSale.Models.Models
+namespace BookSale.Model.Models
 {
     [Table("Promotions")]
     public class Promotion : Auditable
     {
         [Key]
-        [MaxLength(20)]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Promo_ID { set; get; }
 
