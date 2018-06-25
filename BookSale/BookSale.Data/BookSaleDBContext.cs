@@ -1,18 +1,19 @@
-﻿using System.Data.Entity;
+﻿using BookSale.Model.Models;
+using System.Data.Entity;
 
 namespace BookSale.Data
 {
-    public class BookSaleDBContext : DbContext
+    public class BookSaleDbContext : DbContext
     {
-        public BookSaleDBContext() : base("BookSaleConnection")
+        public BookSaleDbContext() : base("BookSaleConnection")
         {
             this.Configuration.LazyLoadingEnabled = false;
         }
 
         public DbSet<Account> Accounts { set; get; }
-        public DbSet<Account_Permission> Account_permission { set; get; }
+        public DbSet<Account_permission> Account_permission { set; get; }
         public DbSet<Account_Profile> Account_profiles { set; get; }
-        public DbSet<Account_Permission> Account_Permissions { set; get; }
+        public DbSet<Account_permission> Account_Permissions { set; get; }
         public DbSet<Account_Profile> Account_Profiles { set; get; }
         public DbSet<Footer> Footers { set; get; }
         public DbSet<Menu> Menus { set; get; }

@@ -1,5 +1,5 @@
 ﻿using BookSale.Data.Infrastructure;
-using BookSale.Models.Models;
+using BookSale.Model.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
