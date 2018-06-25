@@ -1,4 +1,4 @@
-﻿using BookSale.Model.Models;
+﻿using BookSale.Models.Models;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -7,7 +7,6 @@ namespace BookSale.Models.Models
 {
     [Table("order_Details")]
     public class Order_Detail
-
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
