@@ -9,6 +9,6 @@ namespace BookSale.Data.Infrastructure
 {
     public interface IUnitOfWork
     {
-        void commit();
+        void Commit();
     }
 }

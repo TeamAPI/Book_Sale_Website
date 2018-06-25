@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookSale.Data.Infrastructure;
+using System;
 using System.Collections.Generic;
 using System.Data.Entity;
 using System.Linq;
@@ -10,25 +11,25 @@ namespace BookSale.Data.Infrastructure
     {
         #region Properties
 
-        private BookSaleDBContext dataContext;
+        private BookSaleDbContext dataContext;
         private readonly IDbSet<T> dbSet;
 
-        protected IDBFactory DBFactory
+        protected IDbFactory DbFactory
         {
             get;
             private set;
         }
 
-        protected BookSaleDBContext DbContext
+        protected BookSaleDbContext DbContext
         {
-            get { return dataContext ?? (dataContext = DBFactory.Init()); }
+            get { return dataContext ?? (dataContext = DbFactory.Init()); }
         }
 
         #endregion Properties
 
-        protected RepositoryBase(IDBFactory dbFactory)
+        protected RepositoryBase(IDbFactory dbFactory)
         {
-            DBFactory = dbFactory;
+            DbFactory = dbFactory;
             dbSet = DbContext.Set<T>();
         }
 

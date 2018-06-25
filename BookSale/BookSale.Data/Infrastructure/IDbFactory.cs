@@ -1,10 +1,9 @@
-﻿using BookSale.Data;
-using System;
+﻿using System;
 
 namespace BookSale.Data.Infrastructure
 {
-    public interface IDBFactory : IDisposable
+    public interface IDbFactory : IDisposable
     {
-        BookSaleDBContext init();
+        BookSaleDbContext Init();
     }
 }
