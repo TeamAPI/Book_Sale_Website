@@ -26,6 +26,5 @@ namespace BookSale.Models.Models
 
         [ForeignKey("War_ID")]
         public virtual Warehouse Warehouses { set; get; }
-
     }
 }

@@ -1,12 +1,12 @@
-﻿using BookSale.Model.Models;
+﻿using BookSale.Models.Models;
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace BookSale.Models.Models
-{ BookSale/BookSale.Models/Models/Order_Detail.cs
+{
     [Table("order_Details")]
-    public class Order_Detail 
+    public class Order_Detail
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
@@ -19,7 +19,7 @@ namespace BookSale.Models.Models
         public int Promo_ID { set; get; }
 
         [ForeignKey("Ord_ID")]
-        public virtual Order Orders{ set; get; }
+        public virtual Order Orders { set; get; }
 
         [ForeignKey("Pro_ID")]
         public virtual Product Products { set; get; }

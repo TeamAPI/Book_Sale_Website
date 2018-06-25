@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 namespace BookSale.Models.Models
 {
     [Table("Product_Prices")]
-    public class Product_Price: Auditable
+    public class Product_Price : Auditable
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

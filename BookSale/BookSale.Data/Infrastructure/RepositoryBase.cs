@@ -10,25 +10,25 @@ namespace BookSale.Data.Infrastructure
     {
         #region Properties
 
-        private BookSaleDbContext dataContext;
+        private BookSaleDBContext dataContext;
         private readonly IDbSet<T> dbSet;
 
-        protected IDbFactory DbFactory
+        protected IDBFactory DBFactory
         {
             get;
             private set;
         }
 
-        protected BookSaleDbContext DbContext
+        protected BookSaleDBContext DbContext
         {
-            get { return dataContext ?? (dataContext = DbFactory.Init()); }
+            get { return dataContext ?? (dataContext = DBFactory.Init()); }
         }
 
         #endregion Properties
 
-        protected RepositoryBase(IDbFactory dbFactory)
+        protected RepositoryBase(IDBFactory dbFactory)
         {
-            DbFactory = dbFactory;
+            DBFactory = dbFactory;
             dbSet = DbContext.Set<T>();
         }
 
