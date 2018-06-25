@@ -1,5 +1,4 @@
-﻿using BookSale.Models.Models;
-using System.Data.Entity;
+﻿using System.Data.Entity;
 
 namespace BookSale.Data
 {
