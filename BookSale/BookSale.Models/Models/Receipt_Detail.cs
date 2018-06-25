@@ -25,7 +25,5 @@ namespace BookSale.Models.Models
 
         [ForeignKey("Pro_ID")]
         public virtual Product Products { set; get; }
-
-
     }
 }

@@ -41,21 +41,19 @@ namespace BookSale.Models.Models
         [MaxLength(256)]
         public string Image { set; get; }
 
-
         public int Sup_ID { set; get; }
 
         [ForeignKey("Sup_ID")]
         public virtual Supplyhouse Supplyhouses { set; get; }
 
-
         public virtual IEnumerable<Order_Detail> Order_details { set; get; }
 
-        public virtual IEnumerable<Product_Price> Product_Price{ set; get; }
+        public virtual IEnumerable<Product_Price> Product_Price { set; get; }
 
-        public virtual IEnumerable<Product_Warehouse> Product_Warehouses{ set; get; }
+        public virtual IEnumerable<Product_Warehouse> Product_Warehouses { set; get; }
 
         public virtual IEnumerable<Promotion_Product> Promotion_Products { set; get; }
 
-        public virtual IEnumerable<Receipt_Detail> Receipt_details{ set; get; }
+        public virtual IEnumerable<Receipt_Detail> Receipt_details { set; get; }
     }
 }

@@ -28,7 +28,7 @@ namespace BookSale.Models.Models
         [Required]
         public string Acc_AccountType { set; get; }
 
-        public virtual IEnumerable<Account_Permission> Account_Permissions{ set; get; }
+        public virtual IEnumerable<Account_Permission> Account_Permissions { set; get; }
 
         public virtual IEnumerable<Account_Profile> Account_Profiles { set; get; }
     }

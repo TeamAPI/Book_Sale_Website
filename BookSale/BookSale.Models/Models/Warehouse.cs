@@ -25,6 +25,5 @@ namespace BookSale.Models.Models
         public string war_numberphone { set; get; }
 
         public virtual IEnumerable<Product_Warehouse> Product_Warehouses { set; get; }
-
     }
 }

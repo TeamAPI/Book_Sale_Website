@@ -1,12 +1,12 @@
 ﻿namespace BookSale.Data.Infrastructure
 {
-    public class DBFactory : Disposable, IDbFactory
+    public class DBFactory : Disposable, IDBFactory
     {
-        private BookSaleDbContext dbContext;
+        private BookSaleDBContext dbContext;
 
-        public BookSaleDbContext Init()
+        public BookSaleDBContext Init()
         {
-            return dbContext ?? (dbContext = new BookSaleDbContext());
+            return dbContext ?? (dbContext = new BookSaleDBContext());
         }
 
         protected override void DisposeCore()
