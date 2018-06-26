@@ -19,6 +19,6 @@ namespace BookSale.Model.Models
         [MaxLength(200)]
         public string Description { set; get; }
 
-        public virtual IEnumerable<Account_permission> account_permissions { set; get; }
+        public virtual IEnumerable<Account_Permission> account_permission { set; get; }
     }
 }

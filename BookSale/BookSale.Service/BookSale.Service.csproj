@@ -41,7 +41,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ProductService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BookSale.Data\BookSale.Data.csproj">
+      <Project>{3DDE5227-2DDC-4D38-89CF-30546C5AC0AF}</Project>
+      <Name>BookSale.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookSale.Model\BookSale.Model.csproj">
+      <Project>{EF61BCF9-DF0F-42AC-B2D4-6EA441857DAE}</Project>
+      <Name>BookSale.Model</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

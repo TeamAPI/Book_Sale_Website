@@ -1,19 +1,15 @@
 ﻿using BookSale.Data.Infrastructure;
 using BookSale.Model.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BookSale.Data.Repositories
 {
-    public interface IPermision_AccessRepository : IRepository<Permission_Access>
+    public interface IPermision_accessRepository : IRepository<Permission_Access>
     {
     }
-    public class Permision_AccessRepository : RepositoryBase<Permission_Access>, IPermision_AccessRepository
+
+    public class Permision_accessRepository : RepositoryBase<Permission_Access>, IPermision_accessRepository
     {
-        public Permision_AccessRepository(IDbFactory dbFactory) : base(dbFactory)
+        public Permision_accessRepository(IDbFactory dbFactory) : base(dbFactory)
         {
         }
     }

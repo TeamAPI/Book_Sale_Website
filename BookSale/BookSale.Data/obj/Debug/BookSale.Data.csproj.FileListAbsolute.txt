@@ -10,8 +10,6 @@ C:\Users\P\documents\visual studio 2015\Projects\BookSale\BookSale.Data\bin\Debu
 C:\Users\P\documents\visual studio 2015\Projects\BookSale\BookSale.Data\obj\Debug\BookSale.Data.csprojResolveAssemblyReference.cache
 C:\Users\P\documents\visual studio 2015\Projects\BookSale\BookSale.Data\obj\Debug\BookSale.Data.dll
 C:\Users\P\documents\visual studio 2015\Projects\BookSale\BookSale.Data\obj\Debug\BookSale.Data.pdb
-E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB.resources
-E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.csproj.GenerateResource.Cache
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.csprojResolveAssemblyReference.cache
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\BookSale.Data.dll.config
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\BookSale.Data.dll
@@ -24,3 +22,5 @@ E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSa
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\EntityFramework.SqlServer.xml
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.dll
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.pdb
+E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB.resources
+E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.csproj.GenerateResource.Cache
