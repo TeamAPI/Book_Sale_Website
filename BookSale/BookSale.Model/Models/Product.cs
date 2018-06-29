@@ -11,49 +11,50 @@ namespace BookSale.Model.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Pro_ID { set; get; }
+        public int ProductID { set; get; }
 
         [MaxLength(256)]
         [Required]
-        public string Pro_Name { set; get; }
+        public string ProductName { set; get; }
 
-        public DateTime Pro_Publicationdate { set; get; }
+        public DateTime PublicationDate { set; get; }
 
-        public int Pro_Pagenumber { set; get; }
+        public int Pagenumber { set; get; }
 
-        public int Pro_Quantity { set; get; }
+        public int Quantity { set; get; }
 
         [MaxLength(50)]
-        public string Pro_size { set; get; }
+        public string Size { set; get; }
 
         [MaxLength(150)]
-        public string Pro_covertype { set; get; }
+        public string Covertype { set; get; }
 
-        [MaxLength(150)]
-        public string Pro_pruducttype { set; get; }
+
+        public int ProductCategoryID { set; get; }
+        [ForeignKey("ProductCategoryID")]
+        public virtual ProductCategory ProductCategory { set; get; }
 
         [MaxLength(100)]
-        public string Pro_author { set; get; }
+        public string Author { set; get; }
 
         [MaxLength(100)]
-        public string Pro_stralator { set; get; }
+        public string Stralator { set; get; }
 
-        [MaxLength(256)]
-        public string Image { set; get; }
 
-        public int Sup_ID { set; get; }
-
-        [ForeignKey("Sup_ID")]
+        public int SupplyhouseID { set; get; }
+        [ForeignKey("SupplyhouseID")]
         public virtual Supplyhouse Supplyhouses { set; get; }
 
-        public virtual IEnumerable<Order_Detail> Order_details { set; get; }
+        public virtual IEnumerable<OrderDetail> Orderdetails { set; get; }
 
-        public virtual IEnumerable<Product_Price> Product_Price { set; get; }
+        public virtual IEnumerable<ProductPrice> ProductPrice { set; get; }
 
-        public virtual IEnumerable<Product_Warehouse> Product_Warehouses { set; get; }
+        public virtual IEnumerable<ProductWarehouse> ProductWarehouses { set; get; }
 
-        public virtual IEnumerable<Promotion_Product> Promotion_Products { set; get; }
+        public virtual IEnumerable<PromotionProduct> PromotionProducts { set; get; }
 
-        public virtual IEnumerable<Receipt_Detail> Receipt_details { set; get; }
+        public virtual IEnumerable<ReceiptDetail> Receiptdetails { set; get; }
+
+        public virtual IEnumerable<ProductImages> ProductImages { set; get; }
     }
 }

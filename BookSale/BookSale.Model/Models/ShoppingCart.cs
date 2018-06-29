@@ -12,12 +12,12 @@ namespace BookSale.Model.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Sho_ID { set; get; }
+        public int ShoppingCartID { set; get; }
 
-        public DateTime Sho_Shoerdate { set; get; }
+        public int Quantity { set; get; }
 
-        public decimal Sho_totalcost { set; get; }
+        public decimal TotalCost { set; get; }
 
-        public virtual IEnumerable<ShoppingCart_Detail> ShoppingCart_details { set; get; }
+        public virtual IEnumerable<ShoppingCartDetail> ShoppingCartdetails { set; get; }
     }
 }

@@ -13,17 +13,17 @@ namespace BookSale.Model.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int War_ID { set; get; }
+        public int WarehouseID { set; get; }
 
         [MaxLength(256)]
-        public string War_Name { set; get; }
+        public string WarehouseName { set; get; }
 
         [MaxLength(256)]
-        public string War_Address { set; get; }
+        public string WarehouseAddress { set; get; }
 
         [MaxLength(11)]
-        public string war_numberphone { set; get; }
+        public string WarehouseNumberphone { set; get; }
 
-        public virtual IEnumerable<Product_Warehouse> Product_Warehouses { set; get; }
+        public virtual IEnumerable<ProductWarehouse> ProductWarehouses { set; get; }
     }
 }
