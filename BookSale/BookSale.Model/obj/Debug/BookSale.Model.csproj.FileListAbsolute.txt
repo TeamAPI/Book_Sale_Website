@@ -2,3 +2,4 @@ E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSa
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Model\bin\Debug\BookSale.Model.pdb
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Model\obj\Debug\BookSale.Model.dll
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Model\obj\Debug\BookSale.Model.pdb
+E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Model\obj\Debug\BookSale.Model.csprojResolveAssemblyReference.cache
