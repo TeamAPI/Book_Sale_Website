@@ -10,26 +10,26 @@ namespace BookSale.Model.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Acc_ID { set; get; }
+        public int AccountID { set; get; }
 
         [MaxLength(50)]
         [Required]
-        public string Acc_Name { set; get; }
+        public string AccountName { set; get; }
 
         [MaxLength(20)]
         [Required]
-        public string Acc_Password { set; get; }
+        public string AccountPassword { set; get; }
 
         [MaxLength(50)]
         [Required]
-        public string Acc_Status { set; get; }
+        public string AccountStatus { set; get; }
 
         [MaxLength(30)]
         [Required]
-        public string Acc_AccountType { set; get; }
+        public string AccountType { set; get; }
 
-        public virtual IEnumerable<Account_Permission> Account_Permission { set; get; }
+        public virtual IEnumerable<AccountPermission> AccountPermission { set; get; }
 
-        public virtual IEnumerable<Account_Profile> Account_Profiles { set; get; }
+        public virtual IEnumerable<AccountProfile> AccountProfiles { set; get; }
     }
 }

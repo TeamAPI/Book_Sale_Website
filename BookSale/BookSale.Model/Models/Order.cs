@@ -12,21 +12,21 @@ namespace BookSale.Model.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Ord_ID { set; get; }
+        public int OrderID { set; get; }
 
-        public DateTime Ord_orderdate { set; get; }
+        public DateTime OrderDate { set; get; }
 
-        public DateTime Ord_dayofapproval { set; get; }
+        public DateTime ApprovalDate { set; get; }
 
         [MaxLength(256)]
         [Required]
-        public string Ord_shippingaddress { set; get; }
+        public string ShippingAddress { set; get; }
 
         [MaxLength(256)]
-        public string Ord_paymentstype { set; get; }
+        public string PaymentStype { set; get; }
 
-        public decimal Ord_totalcost { set; get; }
+        public decimal TotalCost { set; get; }
 
-        public virtual IEnumerable<Order_Detail> Order_Details { set; get; }
+        public virtual IEnumerable<OrderDetail> OrderDetails { set; get; }
     }
 }

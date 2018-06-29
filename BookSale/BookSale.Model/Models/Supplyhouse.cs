@@ -13,16 +13,16 @@ namespace BookSale.Model.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Sup_ID { set; get; }
+        public int SupplyhouseID { set; get; }
 
         [MaxLength(256)]
-        public string Sup_Name { set; get; }
+        public string SupplyhouseName { set; get; }
 
         [MaxLength(256)]
-        public string Sup_Address { set; get; }
+        public string SupplyhouseAddress { set; get; }
 
         [MaxLength(11)]
-        public string Sup_numberphone { set; get; }
+        public string SupplyhouseNumberphone { set; get; }
 
         public virtual IEnumerable<Product> Products { set; get; }
     }

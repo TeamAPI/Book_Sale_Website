@@ -12,20 +12,22 @@ namespace BookSale.Model.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Promo_ID { set; get; }
+        public int PromotionID { set; get; }
 
         [MaxLength(256)]
         [Required]
-        public string Promo_Name { set; get; }
+        public string PromotionName { set; get; }
 
-        public int Promo_Values { set; get; }
+        public int PromotionValues { set; get; }
 
-        public DateTime Promo_Startdate { set; get; }
+        public DateTime Startdate { set; get; }
 
-        public DateTime Promo_Finishdate { set; get; }
+        public DateTime Finishdate { set; get; }
 
-        public virtual IEnumerable<Order_Detail> Order_Details { set; get; }
+        public virtual IEnumerable<OrderDetail> OrderDetails { set; get; }
 
-        public virtual IEnumerable<Promotion_Product> Promotion_Products { set; get; }
+        public virtual IEnumerable<PromotionProduct> PromotionProducts { set; get; }
+
+        public virtual IEnumerable<PromotionImages> PromotionImages { set; get; }
     }
 }

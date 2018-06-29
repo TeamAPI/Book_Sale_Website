@@ -10,14 +10,14 @@ namespace BookSale.Model.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int Rec_ID { set; get; }
+        public int ReceiptID { set; get; }
 
-        public int Sup_ID { set; get; }
+        public int SupplyhouseID { set; get; }
 
-        public int War_ID { set; get; }
+        public int WarehouseID { set; get; }
 
-        public decimal Rec_ToTalCost { set; get; }
+        public decimal ToTalCost { set; get; }
 
-        public virtual IEnumerable<Receipt_Detail> Receipt_Details { set; get; }
+        public virtual IEnumerable<ReceiptDetail> ReceiptDetails { set; get; }
     }
 }
