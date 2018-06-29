@@ -24,6 +24,9 @@ namespace BookSale.Model.Models
 
         public DateTime Finishdate { set; get; }
 
+        [MaxLength(256)]
+        public string PromotionStatus { set; get; }
+
         public virtual IEnumerable<OrderDetail> OrderDetails { set; get; }
 
         public virtual IEnumerable<PromotionProduct> PromotionProducts { set; get; }

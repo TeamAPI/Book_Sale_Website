@@ -15,7 +15,7 @@ namespace BookSale.Model.Models
 
         public int PromotionID { set; get; }
 
-        [ForeignKey("PromotiontID")]
+        [ForeignKey("PromotionID")]
         public virtual Promotion Promotions { set; get; }
     }
 }

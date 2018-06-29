@@ -40,10 +40,16 @@ namespace BookSale.Model.Models
         [MaxLength(100)]
         public string Stralator { set; get; }
 
+        [MaxLength(256)]
+        public string Publishinghouse { set; get; }
+
+        [MaxLength(256)]
+        public string ProductStatus { set; get; }
 
         public int SupplyhouseID { set; get; }
         [ForeignKey("SupplyhouseID")]
         public virtual Supplyhouse Supplyhouses { set; get; }
+
 
         public virtual IEnumerable<OrderDetail> Orderdetails { set; get; }
 

@@ -14,7 +14,8 @@ namespace BookSale.Model.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int OrderID { set; get; }
 
-        public DateTime OrderDate { set; get; }
+        [MaxLength(256)]
+        public string OrderStatus { set; get; }
 
         public DateTime ApprovalDate { set; get; }
 

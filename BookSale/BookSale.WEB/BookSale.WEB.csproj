@@ -232,6 +232,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Infratructure\Core\ApiControllerBase.cs" />
     <Compile Include="Mappings\AutoMapperConfiguration.cs" />
     <Compile Include="Models\AccountBindingModels.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -276,7 +277,6 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Infratructure\Core\" />
     <Folder Include="Infratructure\Extensions\" />
   </ItemGroup>
   <ItemGroup>
@@ -287,9 +287,17 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\BookSale.Common\BookSale.Common.csproj">
+      <Project>{ecf4e231-89a9-4087-a91b-e73237de47de}</Project>
+      <Name>BookSale.Common</Name>
+    </ProjectReference>
     <ProjectReference Include="..\BookSale.Data\BookSale.Data.csproj">
       <Project>{3DDE5227-2DDC-4D38-89CF-30546C5AC0AF}</Project>
       <Name>BookSale.Data</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\BookSale.Model\BookSale.Model.csproj">
+      <Project>{EF61BCF9-DF0F-42AC-B2D4-6EA441857DAE}</Project>
+      <Name>BookSale.Model</Name>
     </ProjectReference>
     <ProjectReference Include="..\BookSale.Service\BookSale.Service.csproj">
       <Project>{4DE779A3-A30C-4F81-9942-13180EE269D9}</Project>
