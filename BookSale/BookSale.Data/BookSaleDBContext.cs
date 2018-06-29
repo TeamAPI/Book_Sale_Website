@@ -25,9 +25,13 @@ namespace BookSale.Data
         public DbSet<Product> Products { set; get; }
         public DbSet<ProductPrice> ProductPrices { set; get; }
         public DbSet<ProductWarehouse> ProductWarehouses { set; get; }
-    
+        public DbSet<ProductImages> ProductImages { set; get; }
+        public DbSet <ProductCategory> ProductCategory { set; get; }
+     
         public DbSet<Promotion> Promotions { set; get; }
         public DbSet<PromotionProduct> PromotionProducts { set; get; }
+        public DbSet<PromotionImages> PromotionImages { set; get; }
+
 
         public DbSet<Receipt> Receipts { set; get; }
         public DbSet<ReceiptDetail> ReceiptDetails { set; get; }
@@ -37,6 +41,8 @@ namespace BookSale.Data
 
         public DbSet<Supplyhouse> Supplyhouses { set; get; }
         public DbSet<Warehouse> Warehouses { set; get; }
+
+        public DbSet<Error> Errors { set; get; }
 
         protected override void OnModelCreating(DbModelBuilder builder)
         {
