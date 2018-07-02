@@ -1,0 +1,38 @@
+<p>
+  contact-list-component works!
+</p>
+<h1 *ngIf="Printable">{{ Messager }}</h1>
+
+<div *ngFor="let contact of Contacts">
+  <h3>{{contact.name}}</h3>
+  <p>{{contact.job}}</p>
+  <div>
+    <img *ngIf="contact.avatar?.url" [src]="contact.avatar?.url" alt="{{contact.name}}">
+  </div>
+</div>
+
+<!-- swhich case -->
+<div>
+  <button ng-click="changeTab(1)">Tab 1</button>
+  <button ng-click="changeTab(2)">Tab 2</button>
+  <button ng-click="changeTab(3)">Tab 3</button>
+</div>
+<div ng-switch="tabindex">
+  <template ng-switch-when="1">
+    <div>
+      Tab content 1
+    </div>
+  </template>
+  
+  <template ng-switch-when="2">
+    <div>
+      Tab content 2
+    </div>
+  </template>
+  
+  <template ng-switch-when="3">
+    <div>
+      Tab content 3
+    </div>
+  </template>
+</div>
