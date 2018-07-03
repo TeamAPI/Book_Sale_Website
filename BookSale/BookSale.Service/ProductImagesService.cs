@@ -1,11 +1,7 @@
 ﻿using BookSale.Data.Infrastructure;
-using BookSale.Data.Repositories;
+using BookSale.Data.Repository;
 using BookSale.Model.Models;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace BookSale.Service
 {
@@ -17,21 +13,52 @@ namespace BookSale.Service
 
         void Delete(int id);
 
-        Product GetById(int id);
+        ProductImages GetById(int id);
 
-        IEnumerable<Product> GetAllByTag(int page, int pagesize, out int totalrow);
+        IEnumerable<ProductImages> GetAllByParentId(int parentId);
 
         void SaveChange();
     }
-    public class ProductImagesService
+
+    public class ProductImagesService : IProductImagesService
     {
-        private IProductRepository _productRepository;
+        private IProductImagesRepository _productImagesRepository;
         private IUnitOfWork _unitOfWork;
 
-        public ProductImagesService(IProductRepository productRepository, IUnitOfWork unitOfWork)
+        public ProductImagesService(IProductImagesRepository productImagesRepository, IUnitOfWork unitOfWork)
         {
-            this._productRepository = productRepository;
+            this._productImagesRepository = productImagesRepository;
             this._unitOfWork = unitOfWork;
+        }
+
+        public void Add(ProductImages productImage)
+        {
+            _productImagesRepository.Add(productImage);
+        }
+
+        public void Update(ProductImages productImage)
+        {
+            _productImagesRepository.Update(productImage);
+        }
+
+        public void Delete(int id)
+        {
+            _productImagesRepository.Delete(id);
+        }
+
+        public ProductImages GetById(int id)
+        {
+            return _productImagesRepository.GetSingleById(id);
+        }
+
+        public void SaveChange()
+        {
+            _unitOfWork.Commit();
+        }
+
+        public IEnumerable<ProductImages> GetAllByParentId(int parentId)
+        {
+            return _productImagesRepository.GetMulti(x => x.ProductID == parentId);
         }
     }
 }
