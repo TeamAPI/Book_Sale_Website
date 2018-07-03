@@ -2,3 +2,8 @@ E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSa
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Model\bin\Debug\BookSale.Model.pdb
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Model\obj\Debug\BookSale.Model.dll
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Model\obj\Debug\BookSale.Model.pdb
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Model\bin\Debug\BookSale.Model.dll
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Model\bin\Debug\BookSale.Model.pdb
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Model\obj\Debug\BookSale.Model.csprojResolveAssemblyReference.cache
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Model\obj\Debug\BookSale.Model.dll
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Model\obj\Debug\BookSale.Model.pdb

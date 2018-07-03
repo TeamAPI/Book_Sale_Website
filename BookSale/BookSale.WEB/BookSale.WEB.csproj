@@ -234,9 +234,30 @@
     </Compile>
     <Compile Include="Infratructure\Core\ApiControllerBase.cs" />
     <Compile Include="Mappings\AutoMapperConfiguration.cs" />
-    <Compile Include="Models\AccountBindingModels.cs" />
-    <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\AccountPermissionViewModel.cs" />
+    <Compile Include="Models\AccountProfileViewModel.cs" />
+    <Compile Include="Models\AccountViewModel.cs" />
+    <Compile Include="Models\ErrorViewModel.cs" />
+    <Compile Include="Models\FooterViewModel.cs" />
+    <Compile Include="Models\MenuGroupViewModel.cs" />
+    <Compile Include="Models\MenuViewModel.cs" />
+    <Compile Include="Models\OrderDetailViewModel.cs" />
+    <Compile Include="Models\OrderViewModel.cs" />
+    <Compile Include="Models\PermisionAccessViewModel.cs" />
+    <Compile Include="Models\ProductCategoryViewModel.cs" />
+    <Compile Include="Models\ProductImageViewModel.cs" />
+    <Compile Include="Models\ProductPriceViewModel.cs" />
+    <Compile Include="Models\ProductViewModel.cs" />
+    <Compile Include="Models\ProductWarehouseViewModel.cs" />
+    <Compile Include="Models\PromotionImagesViewModel.cs" />
+    <Compile Include="Models\PromotionProductViewModel.cs" />
+    <Compile Include="Models\PromotionViewModel.cs" />
+    <Compile Include="Models\ReceiptDetailViewModel.cs" />
+    <Compile Include="Models\ReceiptViewModel.cs" />
+    <Compile Include="Models\ShoppingCartDetailViewModel.cs" />
+    <Compile Include="Models\ShoppingCartViewModel.cs" />
+    <Compile Include="Models\SupplyhouseViewModel.cs" />
+    <Compile Include="Models\WarehouseViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
