@@ -1,4 +1,5 @@
-﻿using System;
+﻿using BookSale.WEB.Mappings;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -18,6 +19,8 @@ namespace BookSale.WEB
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
+            //init mapper
+            AutoMapperConfiguration.config();
         }
     }
 }

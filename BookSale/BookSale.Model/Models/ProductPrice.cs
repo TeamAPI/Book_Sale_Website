@@ -14,8 +14,6 @@ namespace BookSale.Model.Models
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
-        public int ProductPriceID { set; get; }
-
         public int ProductID { set; get; }
         public decimal Price { set; get; }
 

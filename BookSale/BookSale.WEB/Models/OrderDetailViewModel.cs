@@ -7,9 +7,7 @@ namespace BookSale.WEB.Models
 {
     public class OrderDetailViewModel
     {
-      
-        public int OrderDetailID { set; get; }
-
+ 
         public int OrderID { set; get; }
         public int ProductID { set; get; }
 

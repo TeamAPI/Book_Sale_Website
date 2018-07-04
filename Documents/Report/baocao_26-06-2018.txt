@@ -1,0 +1,81 @@
+﻿Report
+* project:
+	- Tìm hiểu ASP.NET (60%)
+	- Tìm hiểu WEB API (60%)
+	- Thiết kế sơ đồ chức năng (usecase).(80%)
+	- dựng cơ sở dữ liệu.(80%)
+	- code back-end.(40%)
+	- tìm hiểu angularjs2.(60%)
+	- code Front-end.(20%)
+	- test.(0%)
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+****ASP.NET Web API *****
+1. Nguyen Van Loc - 26/06/2018  
+2. Phan Cảnh Quang Hưng - 26/06/2018
+    * Task cũ:
+	- Tạo service(tt) (40%)
+    * Detail:
+	- Đã làm được.	
+	- Đang làm.
+		+ Tạo Service(tt) (40%)
+-----------------------------------------------
+    ** Task mới:
+	- Tạo service(tt)
+	- Tạo controller
+    ** Detail:
+	- Tạo service(tt) (40%)
+	- Tạo controller (20%)
+    ** ETC: 4d
+    ** Have trouble :chưa hiểu cách join bảng trong Service
+    ** Need support: N/A
+    ** Next task: 
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+**** AngularJS2 Web client*****
+1. Nguyễn Văn Luân - 26/06/2018
+2. Nguyễn Thị Thùy Linh - 26/06/2018
+ * Task cũ: T
+	- Derictives và cơ chế ràng buộc dữ liệu 2 chiều trong twowaydatabinding(tt)
+	- databinding và kỹ thuật interpolation(tt)
+	- Thêm dữ liệu cứng phần đâng nhập
+	- Thêm dữ liệu cứng phần đăng ký
+	- Add template vào trang admin
+	- Tạo trang thêm sản phẩm (sử dụng dữ liệu mẫu)
+	- Load danh sách sản phẩm (sử dụng dữ liệu mẫu)
+    * Detail:
+	- Đã tìm hiểu xong:
+		- Thêm dữ liệu cứng phần đâng nhập
+		- Thêm dữ liệu cứng phần đăng ký
+	- Chưa tìm hiểu xong:(cần kiểm tra thêm)
+		 Derictives và cơ chế ràng buộc dữ liệu 2 chiều trong twowaydatabinding(tt) (60%)
+		- databinding và kỹ thuật interpolation(tt) (60%)
+		- Add template vào trang admin (40%)
+		- Tạo trang thêm sản phẩm (sử dụng dữ liệu mẫu) (20%)
+		- Load danh sách sản phẩm (sử dụng dữ liệu mẫu)	(20%)
+-----------------------------------------------
+    ** Task mới:
+	- Derictives và cơ chế ràng buộc dữ liệu 2 chiều trong twowaydatabinding(tt) 
+	- databinding và kỹ thuật interpolation(tt) 
+	- Add template vào trang admin
+	- Tạo trang thêm sản phẩm (sử dụng dữ liệu mẫu)
+	- Load danh sách sản phẩm (sử dụng dữ liệu mẫu)	
+
+	- chỉnh sửa lại cấu trúc thư mục
+    ** Detail:
+	- Chỉnh sửa lại cấu trúc thư mục: đã làm xong
+	- đang làm:
+		+ Derictives và cơ chế ràng buộc dữ liệu 2 chiều trong twowaydatabinding (tt) (60%)
+		+ databinding và kỹ thuật interpolation(tt) (60%)
+		+ Add template vào trang admin 40%
+		+ Tạo trang thêm sản phẩm (sử dụng dữ liệu mẫu) 20%
+		+ Load danh sách sản phẩm (sử dụng dữ liệu mẫu) 20%
+    ** ETC: 2d
+    ** Have trouble :N/A
+    ** Need support: N/A
+    ** Next task: Duyệt đơn hàng, cập nhật đơn hàng, xóa đơn hàng (admin tiếp theo).
+
+
+-------------------------------------------------------------------------
