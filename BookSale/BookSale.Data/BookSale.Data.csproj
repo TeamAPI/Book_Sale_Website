@@ -74,6 +74,10 @@
     <Compile Include="Migrations\201807040618385_InitialDB3.Designer.cs">
       <DependentUpon>201807040618385_InitialDB3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201807050659023_initialDb.cs" />
+    <Compile Include="Migrations\201807050659023_initialDb.Designer.cs">
+      <DependentUpon>201807050659023_initialDb.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repository\AccountRepository.cs" />
@@ -127,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201807040618385_InitialDB3.resx">
       <DependentUpon>201807040618385_InitialDB3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201807050659023_initialDb.resx">
+      <DependentUpon>201807050659023_initialDb.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

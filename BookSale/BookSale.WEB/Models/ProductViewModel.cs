@@ -24,6 +24,7 @@ namespace BookSale.WEB.Models
 
     
         public string Covertype { set; get; }
+        public string Description { set; get; }
 
 
         public int ProductCategoryID { set; get; }

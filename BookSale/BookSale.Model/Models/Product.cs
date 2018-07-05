@@ -46,6 +46,9 @@ namespace BookSale.Model.Models
         [MaxLength(256)]
         public string ProductStatus { set; get; }
 
+        [MaxLength(256)]
+        public string Description { set; get; }
+
         public int SupplyhouseID { set; get; }
         [ForeignKey("SupplyhouseID")]
         public virtual Supplyhouse Supplyhouses { set; get; }
