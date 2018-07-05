@@ -1,0 +1,54 @@
+﻿Report
+* project:
+	- Tìm hiểu ASP.NET (60%)
+	- Tìm hiểu WEB API (60%)
+	- Thiết kế sơ đồ chức năng (usecase).(80%)
+	- dựng cơ sở dữ liệu.(80%)
+	- code back-end.(40%)
+	- tìm hiểu angularjs2.(60%)
+	- code Front-end.(20%)
+	- test.(0%)
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+****ASP.NET Web API *****
+1. Nguyen Van Loc - 29/06/2018  
+2. Phan Cảnh Quang Hưng - 29/06/2018
+    ** Task cũ:(tt)
+	- Tạo service(tt)
+	- Tạo controller
+    ** Detail:
+	- Tạo service(tt) (40%)
+	- Tạo controller (20%)
+    ** ETC: 2d
+    ** Have trouble :
+    ** Need support: N/A
+    ** Next task: 
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+**** AngularJS2 Web client*****
+1. Nguyễn Văn Luân - 29/06/2018
+2. Nguyễn Thị Thùy Linh - 29/06/2018
+-----------------------------------------------
+    ** Task mới:(làm lại task cũ)(tt)
+
+	- Add template vào trang admin (tt)
+	- Tạo trang thêm sản phẩm (sử dụng dữ liệu mẫu) (tt)
+	- Load danh sách sản phẩm (sử dụng dữ liệu mẫu) (tt)
+	- Sửa lỗi kết nối các trang sản phẩm.
+	- Code giao diện trang người dùng.
+
+    ** Detail:
+	- đang làm:
+		+ Add template vào trang admin 40%
+		+ Tạo trang thêm sản phẩm (sử dụng dữ liệu mẫu) 40%
+		+ Load danh sách sản phẩm (sử dụng dữ liệu mẫu) 40%
+		+ Sửa lỗi kết nối các trang sản phẩm (40%)
+		+ Code giao diện trang người dùng (20%)
+		
+    ** ETC: 2d
+    ** Have trouble :N/A
+    ** Need support: N/A
+    ** Next task: Duyệt đơn hàng, cập nhật đơn hàng, xóa đơn hàng (admin tiếp theo).
+-------------------------------------------------------------------------

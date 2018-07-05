@@ -1,0 +1,84 @@
+﻿Report
+* project:
+	- Tìm hiểu ASP.NET (60%)
+	- Tìm hiểu WEB API (60%)
+	- Thiết kế sơ đồ chức năng (usecase).(80%)
+	- dựng cơ sở dữ liệu.(80%)
+	- code back-end.(40%)
+	- tìm hiểu angularjs2.(60%)
+	- code Front-end.(20%)
+	- test.(0%)
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+****ASP.NET Web API *****
+1. Nguyen Van Loc - 25/06/2018  
+2. Phan Cảnh Quang Hưng - 25/06/2018
+    * Task cũ:
+	- Tạo Library Model
+	- Tạo Library Data 
+	- Tạo Library Service
+    * Detail:
+	- Đã làm được.
+		+ Tạo modal 
+		+ Tạo Data
+	- Đang làm.
+		+ Tạo Service (20%)
+-----------------------------------------------
+    ** Task mới:
+	- fix lỗi commit
+	- tạo service(tt) (40%)
+    ** Detail:
+	- fix lỗi commit (80%): đã làm được
+	- tạo service(tt) (40%)
+    
+    ** ETC: 1d
+    ** Have trouble :N/A
+    ** Need support: N/A
+    ** Next task: Tạo controller
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+**** AngularJS2 Web client*****
+1. Nguyễn Văn Luân - 25/06/2018
+2. Nguyễn Thị Thùy Linh - 25/06/2018
+ * Task cũ: Tìm hiểu AngularJS
+    * Detail:
+	- Đã tìm hiểu xong:
+		+ Custom Atrribute 
+		+ Global Namespace 
+		+ Khởi tạo Model, Controller 
+		+ Kỹ thuật dependency injection
+	- Chưa tìm hiểu xong:(cần kiểm tra thêm)
+		+ Array và Function 60%
+		+ Derictives và cơ chế ràng buộc dữ liệu 2 chiều trong twowaydatabinding 60%
+		+ databinding và kỹ thuật interpolation 60%		
+-----------------------------------------------
+    ** Task mới:
+	- Array và Function(tt)
+	- Derictives và cơ chế ràng buộc dữ liệu 2 chiều trong twowaydatabinding(tt)
+	- databinding và kỹ thuật interpolation(tt)
+
+	- Thêm dữ liệu cứng phần đâng nhập
+	- Thêm dữ liệu cứng phần đăng ký
+	- Add template vào trang admin
+	- Tạo trang thêm sản phẩm (sử dụng dữ liệu mẫu)
+	- Load danh sách sản phẩm (sử dụng dữ liệu mẫu)
+    ** Detail:
+	- Array và Function(tt)
+	- Thêm dữ liệu cứng phần đâng nhập: Đã làm xong
+	- Thêm dữ liệu cứng phần đâng ký: đã làm xong
+	- đang làm:
+		+ Derictives và cơ chế ràng buộc dữ liệu 2 chiều trong twowaydatabinding(tt)
+		+ databinding và kỹ thuật interpolation(tt)
+
+		+ Add template vào trang admin 40%
+		+ Tạo trang thêm sản phẩm (sử dụng dữ liệu mẫu) 20%
+		+ Load danh sách sản phẩm (sử dụng dữ liệu mẫu) 20%
+    ** ETC: 2d
+    ** Have trouble :N/A
+    ** Need support: N/A
+    ** Next task: Duyệt đơn hàng, cập nhật đơn hàng, xóa đơn hàng (admin).
+
+
+-------------------------------------------------------------------------

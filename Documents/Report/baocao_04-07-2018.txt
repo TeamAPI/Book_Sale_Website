@@ -1,0 +1,57 @@
+﻿Report
+* project:
+	- Tìm hiểu ASP.NET (60%)
+	- Tìm hiểu WEB API (60%)
+	- Thiết kế sơ đồ chức năng (usecase).(80%)
+	- dựng cơ sở dữ liệu.(80%)
+	- code back-end.(40%)
+	- tìm hiểu angularjs2.(60%)
+	- code Front-end.(40%)
+	- test.(0%)
+
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+****ASP.NET Web API *****
+1. Nguyen Van Loc - 04/07/2018  
+2. Phan Cảnh Quang Hưng -  04/07/2018  
+    ** Task cũ:(tt)
+	- Tạo service(tt)
+	- Tạo controller(tt)
+	- Cày đặt AutoMapper cấu hình và tạo ViewModel
+	- Fix lỗi Mapper	
+    ** Detail:
+	- Tạo service(tt) (60%)
+	- Tạo controller (20%)
+	-  
+    **đã làm xong:
+	- Fix lỗi Mapper
+	- Cày đặt AutoMapper cấu hình và tạo ViewModel
+    ** ETC: 2d
+    ** Have trouble :
+    ** Need support: N/A
+    ** Next task: 
+-------------------------------------------------------------------------
+-------------------------------------------------------------------------
+**** AngularJS2 Web client*****
+1. Nguyễn Thị Thùy Linh -  04/07/2018  
+2. Nguyễn Văn Luân - 04-07-2018
+ * Task mới: (làm lại task cũ tt)
+    * Detail:
+	- đang làm:
+		+ Code giao diện trang người dùng (40%)
+		+ Giao diện trang chủ (40%)
+		+ Giao diện danh mục sách (40%)
+		+ click hình sách xem thông tin sách (60%)
+		+ Load danh sách sản phẩm (sử dụng dữ liệu mẫu) 60%
+		+ Tạo danh sách đơn hàng mới ( dữ liệu mẫu) 40%
+		+ Tạo danh sách đơn hàng phê duyệt ( dữ liệu mẫu) 40%
+		+ Tạo danh sách đơn hàng hủy ( dữ liệu mẫu) 40%	
+	- hoàn thành:
+		+ Tạo trang thêm sản phẩm (sử dụng dữ liệu mẫu)
+    ** ETC: 2d
+    ** Have trouble :N/A
+    ** Need support: N/A
+
+
+
+-------------------------------------------------------------------------

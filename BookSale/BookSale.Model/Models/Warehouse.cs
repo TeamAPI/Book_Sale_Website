@@ -9,8 +9,7 @@ using System.Threading.Tasks;
 namespace BookSale.Model.Models
 {
     [Table("Warehouses")]
-    public class Warehouse
-    {
+    public class Warehouse     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int WarehouseID { set; get; }

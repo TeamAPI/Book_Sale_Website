@@ -28,3 +28,23 @@ E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSa
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.csproj.GenerateResource.Cache
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB1.resources
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB2.resources
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\BookSale.Data.dll.config
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\BookSale.Data.dll
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\BookSale.Data.pdb
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\BookSale.Common.dll
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\BookSale.Model.dll
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\EntityFramework.dll
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\BookSale.Common.pdb
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\BookSale.Model.pdb
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\EntityFramework.xml
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.csprojResolveAssemblyReference.cache
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB.resources
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB1.resources
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB2.resources
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.csproj.GenerateResource.Cache
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.dll
+C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.pdb
+E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB3.resources
+E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB4.resources

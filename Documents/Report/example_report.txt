@@ -1,0 +1,33 @@
+﻿Report
+1. Nguyen Van Loc - 05/06/2018
+* Task:
+- Tìm hiểu WebAPI
+- Tìm hiểu dapper	
+- Thảo luận thiết kế usecase diagram và Database
+* Detail:
+- Khái niệm về web api (80%)
+- Cách dựng project (80%) 
+- Phương thức hoạt động (80%)
+- Khái niệm dapper là gì (80%)
+- Cú pháp của dapper (80%)
+- Cách sử dụng dapper trong project ASP.NET (80%)
+- Thiết kế sơ đồ phân hệ admin (60%)
+- Thiết kế sơ đồ DB cơ bản (60%)
+* ETC: 1d
+* Have trouble : Liệt kê vấn đề gặp phải trong lúc làm (đã giải quyết được (nếu đã giải quyết được thì có thể ghi cách giải quyết ra), hoặc chưa), nếu không có ghi N/A
+* Need support: Liệt kê những vấn đề cần hỗ trợ
+* Next task: Công việc sẽ thực hiện tiếp theo sau khi hoàn thành các task hiện tại
+
+-------------------------------------------------------------------------
+2. Nguyen Thi Thuy Linh
+...
+
+
+-------------------------------------------------------------------------
+*Note: tiến độ thực hiện 1 task chia theo thang %
+- 0% chưa làm gì hết
+- 20% bắt đầu làm
+- 40% làm được phân nữa
+- 60% làm gần xong nhưng còn cần kiểm tra lại, sefl-test lại
+- 80% làm xong task, đợi preview
+- 100% dùng cho người preview check

@@ -7,15 +7,16 @@ namespace BookSale.Service
 {
     public interface IProductImagesService
     {
-        void Add(ProductImages ProductImages);
+        void Add(ProductImages productImages);
 
-        void Update(ProductImages ProductImages);
+        void Update(ProductImages productImages);
 
         void Delete(int id);
 
         ProductImages GetById(int id);
 
         IEnumerable<ProductImages> GetAllByParentId(int parentId);
+        IEnumerable<ProductImages> GetAll();
 
         void SaveChange();
     }
@@ -60,5 +61,16 @@ namespace BookSale.Service
         {
             return _productImagesRepository.GetMulti(x => x.ProductID == parentId);
         }
+      
+        IEnumerable<ProductImages> IProductImagesService.GetAll()
+        {
+            return _productImagesRepository.GetAll();
+        }
+
+        ProductImages IProductImagesService.GetById(int id)
+        {
+            return _productImagesRepository.GetSingleById(id);
+        }
+
     }
 }
