@@ -1,7 +1,6 @@
 ﻿using BookSale.Data.Infrastructure;
 using BookSale.Data.Repository;
 using BookSale.Model.Models;
-using System;
 using System.Collections.Generic;
 
 namespace BookSale.Service
@@ -16,6 +15,7 @@ namespace BookSale.Service
 
         ProductImages GetById(int id);
 
+        IEnumerable<ProductImages> GetAllByParentId(int parentId);
         IEnumerable<ProductImages> GetAll();
 
         void SaveChange();
@@ -32,9 +32,14 @@ namespace BookSale.Service
             this._unitOfWork = unitOfWork;
         }
 
-        public void Add(ProductImages productImages)
+        public void Add(ProductImages productImage)
         {
-            _productImagesRepository.Add(productImages);
+            _productImagesRepository.Add(productImage);
+        }
+
+        public void Update(ProductImages productImage)
+        {
+            _productImagesRepository.Update(productImage);
         }
 
         public void Delete(int id)
@@ -42,11 +47,21 @@ namespace BookSale.Service
             _productImagesRepository.Delete(id);
         }
 
-        public void Update(ProductImages ProductImages)
+        public ProductImages GetById(int id)
         {
-            _productImagesRepository.Update(ProductImages);
+            return _productImagesRepository.GetSingleById(id);
         }
 
+        public void SaveChange()
+        {
+            _unitOfWork.Commit();
+        }
+
+        public IEnumerable<ProductImages> GetAllByParentId(int parentId)
+        {
+            return _productImagesRepository.GetMulti(x => x.ProductID == parentId);
+        }
+      
         IEnumerable<ProductImages> IProductImagesService.GetAll()
         {
             return _productImagesRepository.GetAll();
@@ -57,9 +72,5 @@ namespace BookSale.Service
             return _productImagesRepository.GetSingleById(id);
         }
 
-        public void SaveChange()
-        {
-            _unitOfWork.Commit();
-        }
     }
 }

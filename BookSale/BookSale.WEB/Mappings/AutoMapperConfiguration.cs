@@ -1,22 +1,17 @@
 ﻿using AutoMapper;
 using BookSale.Model.Models;
 using BookSale.WEB.Models;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 
 namespace BookSale.WEB.Mappings
 {
-
-
     public class AutoMapperConfiguration
     {
         public static IMapper Mapping;
+
         public static void config()
         {
             var mapperConfig = new AutoMapper.MapperConfiguration(config =>
-            { 
+            {
                 config.CreateMap<Account, AccountViewModel>();
                 config.CreateMap<AccountPermission, AccountPermissionViewModel>();
                 config.CreateMap<AccountProfile, AccountProfileViewModel>();

@@ -121,7 +121,7 @@ namespace BookSale.WEB.Infratructure.Extensions
             product.Publishinghouse = productVm.Publishinghouse;
             product.ProductStatus = productVm.ProductStatus;
             product.SupplyhouseID = productVm.SupplyhouseID;
-
+            product.Description = productVm.Description;
             product.created_by = productVm.created_by;
             product.created_date = productVm.created_date;
             product.updated_by = productVm.updated_by;
