@@ -20,7 +20,7 @@ namespace BookSale.WEB
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
             //init mapper
-            AutoMapperConfiguration.config();
+            AutoMapperConfiguration.Initialize();
         }
     }
 }
