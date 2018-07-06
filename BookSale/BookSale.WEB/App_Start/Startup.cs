@@ -6,6 +6,7 @@ using BookSale.Data.Infrastructure;
 using BookSale.Data.Repositories;
 using BookSale.Service;
 using Microsoft.Owin;
+using Microsoft.Owin.Security.OAuth;
 using Owin;
 using System.Reflection;
 using System.Web.Http;
@@ -15,12 +16,14 @@ using System.Web.Mvc;
 
 namespace BookSale.WEB.App_Start
 {
-    public class Startup
+    public partial class Startup
     {
         public void Configuration(IAppBuilder app)
         {
+         
             // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=316888
             ConfigAutofac(app);
+            //ConfigureAuth(app);
         }
 
         private void ConfigAutofac(IAppBuilder app)

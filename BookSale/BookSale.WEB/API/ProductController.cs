@@ -1,4 +1,10 @@
-﻿using System;
+﻿using AutoMapper;
+using BookSale.Model.Models;
+using BookSale.Service;
+using BookSale.Web.Infrastructure.Core;
+using BookSale.WEB.Infratructure.Core;
+using BookSale.WEB.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -7,33 +13,32 @@ using System.Web.Http;
 
 namespace BookSale.WEB.API
 {
-    public class ProductController : ApiController
+    [RoutePrefix("api/product")]
+    public class ProductController : ApiControllerBase
     {
-        // GET api/<controller>
-        public IEnumerable<string> Get()
-        {
-            return new string[] { "value1", "value2" };
-        }
+        #region Initialize
+        private IProductService _productService;
 
-        // GET api/<controller>/5
-        public string Get(int id)
+        public ProductController(IErrorService errorService, IProductService productService)
+            : base(errorService)
         {
-            return "value";
+            this._productService = productService;
         }
-
-        // POST api/<controller>
-        public void Post([FromBody]string value)
+        #endregion
+        [Route("getall")]
+        [HttpGet]
+        public HttpResponseMessage Get(HttpRequestMessage request)
         {
-        }
+            return CreateHttpResponse(request, () =>
+            {
+                var listProduct = _productService.Getall();
 
-        // PUT api/<controller>/5
-        public void Put(int id, [FromBody]string value)
-        {
-        }
+                var listProductVm = Mapper.Map<List<ProductViewModel>>(listProduct);
 
-        // DELETE api/<controller>/5
-        public void Delete(int id)
-        {
+                HttpResponseMessage response = request.CreateResponse(HttpStatusCode.OK, listProductVm);
+
+                return response;
+            });
         }
     }
 }

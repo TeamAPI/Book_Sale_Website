@@ -15,8 +15,11 @@ namespace BookSale.Service
         void Delete(int id);
 
         IEnumerable<Product> Getall();
+
         IEnumerable<Product> Getall(string keyword);
+
         IEnumerable<Product> GetAllPaging(int page, int pagesize, out int totalrow);
+
         Product GetById(int id);
 
         IEnumerable<Product> GetAllByProductCategory(int productCategory, int page, int pagesize, out int totalrow);
@@ -53,7 +56,7 @@ namespace BookSale.Service
 
         public IEnumerable<Product> Getall()
         {
-            return _productRepository.GetAll(new string[] { "Product_Price" });
+            return _productRepository.GetAll();
         }
 
         public IEnumerable<Product> GetAllByProductCategory(int productCategory, int page, int pagesize, out int totalrow)
@@ -69,13 +72,13 @@ namespace BookSale.Service
             totalrow = query.Count();
             return query.Skip((page - 1) * pagesize).Take(pagesize);
         }
+
         public IEnumerable<Product> Getall(string keyword)
         {
             if (!string.IsNullOrEmpty(keyword))
                 return _productRepository.GetMulti(x => x.ProductName.Contains(keyword) || x.Description.Contains(keyword));
             else
                 return _productRepository.GetAll();
-
         }
 
         public IEnumerable<Product> GetAllPaging(int page, int pagesize, out int totalrow)
@@ -119,6 +122,5 @@ namespace BookSale.Service
                 query = _productRepository.GetAll();
             return query;
         }
-
     }
 }

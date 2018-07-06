@@ -16,6 +16,7 @@ namespace BookSale.Service
         ProductImages GetById(int id);
 
         IEnumerable<ProductImages> GetAllByParentId(int parentId);
+
         IEnumerable<ProductImages> GetAll();
 
         void SaveChange();
@@ -61,7 +62,7 @@ namespace BookSale.Service
         {
             return _productImagesRepository.GetMulti(x => x.ProductID == parentId);
         }
-      
+
         IEnumerable<ProductImages> IProductImagesService.GetAll()
         {
             return _productImagesRepository.GetAll();
@@ -71,6 +72,5 @@ namespace BookSale.Service
         {
             return _productImagesRepository.GetSingleById(id);
         }
-
     }
 }

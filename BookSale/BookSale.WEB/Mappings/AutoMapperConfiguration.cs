@@ -6,11 +6,9 @@ namespace BookSale.WEB.Mappings
 {
     public class AutoMapperConfiguration
     {
-        public static IMapper Mapping;
-
-        public static void config()
+        public static void Initialize()
         {
-            var mapperConfig = new AutoMapper.MapperConfiguration(config =>
+            Mapper.Initialize(config =>
             {
                 config.CreateMap<Account, AccountViewModel>();
                 config.CreateMap<AccountPermission, AccountPermissionViewModel>();
@@ -41,7 +39,7 @@ namespace BookSale.WEB.Mappings
                 config.CreateMap<Supplyhouse, SupplyhouseViewModel>();
                 config.CreateMap<Warehouse, WarehouseViewModel>();
             });
-            Mapping = mapperConfig.CreateMapper();
         }
     }
+ 
 }
