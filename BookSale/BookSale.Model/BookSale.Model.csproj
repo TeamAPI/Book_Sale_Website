@@ -56,7 +56,6 @@
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductCategory.cs" />
     <Compile Include="Models\ProductImages.cs" />
-    <Compile Include="Models\ProductPrice.cs" />
     <Compile Include="Models\ProductWarehouse.cs" />
     <Compile Include="Models\Promotion.cs" />
     <Compile Include="Models\PromotionImages.cs" />

@@ -23,7 +23,6 @@ namespace BookSale.Data
         public DbSet<OrderDetail> OrderDetails { set; get; }
 
         public DbSet<Product> Products { set; get; }
-        public DbSet<ProductPrice> ProductPrices { set; get; }
         public DbSet<ProductWarehouse> ProductWarehouses { set; get; }
         public DbSet<ProductImages> ProductImages { set; get; }
         public DbSet <ProductCategory> ProductCategory { set; get; }

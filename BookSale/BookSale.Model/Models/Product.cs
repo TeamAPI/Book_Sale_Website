@@ -52,10 +52,10 @@ namespace BookSale.Model.Models
         [ForeignKey("SupplyhouseID")]
         public virtual Supplyhouse Supplyhouses { set; get; }
 
+        public decimal Price { set; get; }
+
 
         public virtual IEnumerable<OrderDetail> Orderdetails { set; get; }
-
-        public virtual IEnumerable<ProductPrice> ProductPrice { set; get; }
 
         public virtual IEnumerable<ProductWarehouse> ProductWarehouses { set; get; }
 
