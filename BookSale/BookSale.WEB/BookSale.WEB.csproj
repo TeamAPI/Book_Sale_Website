@@ -232,10 +232,10 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Infratructure\Core\ApiControllerBase.cs" />
-    <Compile Include="Infratructure\Core\PaginationSet.cs" />
-    <Compile Include="Infratructure\Core\ServiceFactory.cs" />
-    <Compile Include="Infratructure\Extensions\EntityExtension.cs" />
+    <Compile Include="Infrastructure\Core\ApiControllerBase.cs" />
+    <Compile Include="Infrastructure\Core\PaginationSet.cs" />
+    <Compile Include="Infrastructure\Core\ServiceFactory.cs" />
+    <Compile Include="Infrastructure\Extensions\EntityExtension.cs" />
     <Compile Include="Mappings\AutoMapperConfiguration.cs" />
     <Compile Include="Models\AccountPermissionViewModel.cs" />
     <Compile Include="Models\AccountProfileViewModel.cs" />
@@ -249,7 +249,6 @@
     <Compile Include="Models\PermisionAccessViewModel.cs" />
     <Compile Include="Models\ProductCategoryViewModel.cs" />
     <Compile Include="Models\ProductImageViewModel.cs" />
-    <Compile Include="Models\ProductPriceViewModel.cs" />
     <Compile Include="Models\ProductViewModel.cs" />
     <Compile Include="Models\ProductWarehouseViewModel.cs" />
     <Compile Include="Models\PromotionImagesViewModel.cs" />

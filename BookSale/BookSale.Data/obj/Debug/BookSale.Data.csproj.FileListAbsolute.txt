@@ -49,3 +49,5 @@ C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB3.resources
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB4.resources
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB5.resources
+E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB6.resources
+E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB7.resources

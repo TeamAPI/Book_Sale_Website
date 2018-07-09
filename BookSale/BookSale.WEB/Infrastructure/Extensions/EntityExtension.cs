@@ -146,16 +146,6 @@ namespace BookSale.WEB.Infratructure.Extensions
             productImages.ProductID = productImagesVm.ProductID;
         }
 
-        public static void updateProductPrice(this ProductPrice productPrice, ProductPriceViewModel productPriceVm)
-        {
-            productPrice.ProductID = productPriceVm.ProductID;
-            productPrice.Price = productPriceVm.Price;
-
-            productPrice.created_by = productPriceVm.created_by;
-            productPrice.created_date = productPriceVm.created_date;
-            productPrice.updated_by = productPriceVm.updated_by;
-            productPrice.updated_date = productPriceVm.updated_date;
-        }
 
         public static void updateProductWarehouse(this ProductWarehouse productWarehouse, ProductWarehouseViewModel productWarehouseVm)
         {

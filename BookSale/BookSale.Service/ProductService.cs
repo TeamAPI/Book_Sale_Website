@@ -3,6 +3,7 @@ using BookSale.Data.Repositories;
 using BookSale.Model.Models;
 using System.Collections.Generic;
 using System.Linq;
+using System;
 
 namespace BookSale.Service
 {
@@ -15,8 +16,6 @@ namespace BookSale.Service
         void Delete(int id);
 
         IEnumerable<Product> Getall();
-
-        IEnumerable<Product> Getall(string keyword);
 
         IEnumerable<Product> GetAllPaging(int page, int pagesize, out int totalrow);
 
@@ -56,7 +55,7 @@ namespace BookSale.Service
 
         public IEnumerable<Product> Getall()
         {
-            return _productRepository.GetAll();
+            return _productRepository.GetAll(new string[] {"ProductCategory", "Supplyhouses",});
         }
 
         public IEnumerable<Product> GetAllByProductCategory(int productCategory, int page, int pagesize, out int totalrow)
@@ -71,14 +70,6 @@ namespace BookSale.Service
             var query = _productRepository.GetMulti(x => x.ProductStatus == "Đang hoạt động" && x.SupplyhouseID == supplyHouse);
             totalrow = query.Count();
             return query.Skip((page - 1) * pagesize).Take(pagesize);
-        }
-
-        public IEnumerable<Product> Getall(string keyword)
-        {
-            if (!string.IsNullOrEmpty(keyword))
-                return _productRepository.GetMulti(x => x.ProductName.Contains(keyword) || x.Description.Contains(keyword));
-            else
-                return _productRepository.GetAll();
         }
 
         public IEnumerable<Product> GetAllPaging(int page, int pagesize, out int totalrow)
@@ -113,14 +104,18 @@ namespace BookSale.Service
             return true;
         }
 
+        // serch with product name
         public IEnumerable<Product> GetListProduct(string keyword)
         {
             IEnumerable<Product> query;
             if (!string.IsNullOrEmpty(keyword))
-                query = _productRepository.GetMulti(x => x.ProductName.Contains(keyword));
+                query = _productRepository.GetMulti(x => x.ProductStatus == "Đang hoạt động" &&( x.ProductName.Contains(keyword) || x.Author.Contains(keyword) || x.Description.Contains(keyword) || x.Stralator.Contains(keyword) || x.Publishinghouse.Contains(keyword)) , new string[] { "ProductCategory", "Supplyhouses" });
             else
-                query = _productRepository.GetAll();
+                query = _productRepository.GetMulti(x => x.ProductStatus == "Đang hoạt động" , new string[] { "ProductCategory", "Supplyhouses" });
             return query;
         }
+
+
+
     }
 }

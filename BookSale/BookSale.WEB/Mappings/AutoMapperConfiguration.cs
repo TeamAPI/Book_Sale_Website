@@ -24,7 +24,6 @@ namespace BookSale.WEB.Mappings
 
                 config.CreateMap<Product, ProductViewModel>();
                 config.CreateMap<ProductImages, ProductImageViewModel>();
-                config.CreateMap<ProductPrice, ProductPriceViewModel>();
                 config.CreateMap<ProductWarehouse, ProductWarehouseViewModel>();
                 config.CreateMap<ProductCategory, ProductCategoryViewModel>();
 
