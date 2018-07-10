@@ -66,6 +66,8 @@ namespace BookSale.WEB.API
             return CreateHttpResponse(request, () =>
             {
                 var listProduct = _productService.GetListProduct(keyword);
+                int totalrow = listProduct.Count();
+                //if ((totalrow/20) !=0)
                 var listProductVm = Mapper.Map<List<ProductViewModel>>(listProduct);
                 HttpResponseMessage response = request.CreateResponse(HttpStatusCode.OK, listProductVm);
                 return response;
