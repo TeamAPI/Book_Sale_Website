@@ -10,11 +10,6 @@ namespace BookSale.Data
             this.Configuration.LazyLoadingEnabled = false;
         }
 
-        public DbSet<Account> Accounts { set; get; }
-        public DbSet<AccountPermission> AccountPermission { set; get; }
-        public DbSet<AccountProfile> AccountProfiles { set; get; }
-        public DbSet<PermissionAccess> PermissionAccess { set; get; }
-
         public DbSet<Footer> Footers { set; get; }
         public DbSet<Menu> Menus { set; get; }
         public DbSet<MenuGroup> MenuGroups { set; get; }

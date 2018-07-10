@@ -5,39 +5,39 @@ namespace BookSale.WEB.Infratructure.Extensions
 {
     public static class EntityExtension
     {
-        public static void updateAccount(this Account acount, AccountViewModel acountVm)
-        {
-            acount.AccountID = acountVm.AccountID;
-            acount.AccountName = acountVm.AccountName;
-            acount.AccountPassword = acountVm.AccountPassword;
-            acount.AccountStatus = acountVm.AccountStatus;
-            acount.AccountType = acountVm.AccountType;
+        //public static void updateAccount(this Account acount, AccountViewModel acountVm)
+        //{
+        //    acount.AccountID = acountVm.AccountID;
+        //    acount.AccountName = acountVm.AccountName;
+        //    acount.AccountPassword = acountVm.AccountPassword;
+        //    acount.AccountStatus = acountVm.AccountStatus;
+        //    acount.AccountType = acountVm.AccountType;
 
-            acount.created_by = acountVm.created_by;
-            acount.created_date = acountVm.created_date;
-            acount.updated_by = acountVm.updated_by;
-            acount.updated_date = acountVm.updated_date;
-        }
+        //    acount.created_by = acountVm.created_by;
+        //    acount.created_date = acountVm.created_date;
+        //    acount.updated_by = acountVm.updated_by;
+        //    acount.updated_date = acountVm.updated_date;
+        //}
 
-        public static void updateAccountPermission(this AccountPermission accountPermission, AccountPermissionViewModel accountPermissionVm)
-        {
-            accountPermission.AccountID = accountPermissionVm.AccountID;
-            accountPermission.PermissionID = accountPermissionVm.PermissionID;
-        }
+        //public static void updateAccountPermission(this AccountPermission accountPermission, AccountPermissionViewModel accountPermissionVm)
+        //{
+        //    accountPermission.AccountID = accountPermissionVm.AccountID;
+        //    accountPermission.PermissionID = accountPermissionVm.PermissionID;
+        //}
 
-        public static void updateAccountProfile(this AccountProfile accountProfile, AccountProfileViewModel accountProfileVm)
-        {
-            accountProfile.AccountProfileID = accountProfileVm.AccountProfileID;
-            accountProfile.AccountProfileUsername = accountProfileVm.AccountProfileUsername;
-            accountProfile.AccountProfileSex = accountProfileVm.AccountProfileSex;
-            accountProfile.AccountProfileDateofbirth = accountProfileVm.AccountProfileDateofbirth;
-            accountProfile.AccountProfileEmail = accountProfileVm.AccountProfileEmail;
-            accountProfile.AccountProfileAddress = accountProfileVm.AccountProfileAddress;
-            accountProfile.AccountProfileNumberphone = accountProfileVm.AccountProfileNumberphone;
-            accountProfile.AcountProfileImages = accountProfileVm.AcountProfileImages;
+        //public static void updateAccountProfile(this AccountProfile accountProfile, AccountProfileViewModel accountProfileVm)
+        //{
+        //    accountProfile.AccountProfileID = accountProfileVm.AccountProfileID;
+        //    accountProfile.AccountProfileUsername = accountProfileVm.AccountProfileUsername;
+        //    accountProfile.AccountProfileSex = accountProfileVm.AccountProfileSex;
+        //    accountProfile.AccountProfileDateofbirth = accountProfileVm.AccountProfileDateofbirth;
+        //    accountProfile.AccountProfileEmail = accountProfileVm.AccountProfileEmail;
+        //    accountProfile.AccountProfileAddress = accountProfileVm.AccountProfileAddress;
+        //    accountProfile.AccountProfileNumberphone = accountProfileVm.AccountProfileNumberphone;
+        //    accountProfile.AcountProfileImages = accountProfileVm.AcountProfileImages;
 
-            accountProfile.AccountID = accountProfileVm.AccountID;
-        }
+        //    accountProfile.AccountID = accountProfileVm.AccountID;
+        //}
 
         public static void updateError(this Error error, ErrorViewModel errorVm)
         {
@@ -94,17 +94,17 @@ namespace BookSale.WEB.Infratructure.Extensions
             orderDetail.PromotionID = orderDetailVm.PromotionID;
         }
 
-        public static void updatePermissionAccess(this PermissionAccess permissionAccess, PermisionAccessViewModel permissionAccessVm)
-        {
-            permissionAccess.ID = permissionAccessVm.ID;
-            permissionAccess.Name = permissionAccessVm.Name;
-            permissionAccess.Description = permissionAccessVm.Description;
+        //public static void updatePermissionAccess(this PermissionAccess permissionAccess, PermisionAccessViewModel permissionAccessVm)
+        //{
+        //    permissionAccess.ID = permissionAccessVm.ID;
+        //    permissionAccess.Name = permissionAccessVm.Name;
+        //    permissionAccess.Description = permissionAccessVm.Description;
 
-            permissionAccess.created_by = permissionAccessVm.created_by;
-            permissionAccess.created_date = permissionAccessVm.created_date;
-            permissionAccess.updated_by = permissionAccessVm.updated_by;
-            permissionAccess.updated_date = permissionAccessVm.updated_date;
-        }
+        //    permissionAccess.created_by = permissionAccessVm.created_by;
+        //    permissionAccess.created_date = permissionAccessVm.created_date;
+        //    permissionAccess.updated_by = permissionAccessVm.updated_by;
+        //    permissionAccess.updated_date = permissionAccessVm.updated_date;
+        //}
 
         public static void updateProduct(this Product product, ProductViewModel productVm)
         {

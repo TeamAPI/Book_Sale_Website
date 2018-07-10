@@ -10,9 +10,9 @@ namespace BookSale.WEB.Mappings
         {
             Mapper.Initialize(config =>
             {
-                config.CreateMap<Account, AccountViewModel>();
-                config.CreateMap<AccountPermission, AccountPermissionViewModel>();
-                config.CreateMap<AccountProfile, AccountProfileViewModel>();
+                //config.CreateMap<Account, AccountViewModel>();
+                //config.CreateMap<AccountPermission, AccountPermissionViewModel>();
+                //config.CreateMap<AccountProfile, AccountProfileViewModel>();
                 config.CreateMap<Error, ErrorViewModel>();
                 config.CreateMap<Footer, FooterViewModel>();
 
@@ -20,7 +20,7 @@ namespace BookSale.WEB.Mappings
                 config.CreateMap<MenuGroup, MenuGroupViewModel>();
                 config.CreateMap<Order, OrderViewModel>();
                 config.CreateMap<OrderDetail, OrderDetailViewModel>();
-                config.CreateMap<PermissionAccess, PermisionAccessViewModel>();
+                //config.CreateMap<PermissionAccess, PermisionAccessViewModel>();
 
                 config.CreateMap<Product, ProductViewModel>();
                 config.CreateMap<ProductImages, ProductImageViewModel>();
