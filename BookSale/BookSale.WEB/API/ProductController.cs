@@ -2,14 +2,13 @@
 using BookSale.Model.Models;
 using BookSale.Service;
 using BookSale.Web.Infrastructure.Core;
-using BookSale.WEB.Infratructure.Core;
 using BookSale.WEB.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Script.Serialization;
 
 namespace BookSale.WEB.API
 {
@@ -19,11 +18,12 @@ namespace BookSale.WEB.API
         #region Initialize
 
         private IProductService _productService;
-
-        public ProductController(IErrorService errorService, IProductService productService)
+        private IProductImagesService _productImagesService;
+        public ProductController(IErrorService errorService, IProductService productService, IProductImagesService productImagesService)
             : base(errorService)
         {
             this._productService = productService;
+            this._productImagesService = productImagesService;
         }
 
         #endregion Initialize
@@ -36,6 +36,10 @@ namespace BookSale.WEB.API
             return CreateHttpResponse(request, () =>
             {
                 var listProduct = _productService.Getall();
+                foreach(var item in listProduct)
+                {
+                    item.ProductImages = _productImagesService.GetAllByParentId(item.ProductID);
+                }
                 var query = listProduct.Skip((page-1) * pagesize).Take(pagesize);
                 var listProductVm = Mapper.Map<List<ProductViewModel>>(query);
                 HttpResponseMessage response = request.CreateResponse(HttpStatusCode.OK, listProductVm);
@@ -46,7 +50,7 @@ namespace BookSale.WEB.API
         //lấy ra danh sách sản phẩm lọc theo status là " Đang hoạt động " và phân trang cho danh sách
         [Route("getallwhithstate")]
         [HttpGet]
-        public HttpResponseMessage getallpaging1(HttpRequestMessage request, int page, int pagesize = 2)
+        public HttpResponseMessage getallpaging(HttpRequestMessage request, int page, int pagesize = 2)
         {
             return CreateHttpResponse(request, () =>
             {
@@ -70,6 +74,57 @@ namespace BookSale.WEB.API
                 //if ((totalrow/20) !=0)
                 var listProductVm = Mapper.Map<List<ProductViewModel>>(listProduct);
                 HttpResponseMessage response = request.CreateResponse(HttpStatusCode.OK, listProductVm);
+                return response;
+            });
+        }
+
+        [Route("delete")]
+        [HttpDelete]
+        public HttpResponseMessage Delete(HttpRequestMessage request, int id)
+        {
+            return CreateHttpResponse(request, () =>
+            {
+                HttpResponseMessage response = null;
+                if (!ModelState.IsValid)
+                {
+                    response = request.CreateResponse(HttpStatusCode.BadRequest, ModelState);
+                }
+                else
+                {
+                    var oldProductCategory = _productService.Delete(id);
+                    _productService.SaveChange();
+
+                    var responseData = Mapper.Map<Product, ProductViewModel>(oldProductCategory);
+                    response = request.CreateResponse(HttpStatusCode.Created, responseData);
+                }
+
+                return response;
+            });
+        }
+        [Route("deletemulti")]
+        [HttpDelete]
+        public HttpResponseMessage DeleteMulti(HttpRequestMessage request, string checkedProducts)
+        {
+            return CreateHttpResponse(request, () =>
+            {
+                HttpResponseMessage response = null;
+                if (!ModelState.IsValid)
+                {
+                    response = request.CreateResponse(HttpStatusCode.BadRequest, ModelState);
+                }
+                else
+                {
+                    var listProductCategory = new JavaScriptSerializer().Deserialize<List<int>>(checkedProducts);
+                    foreach (var item in listProductCategory)
+                    {
+                        _productService.Delete(item);
+                    }
+
+                    _productService.SaveChange();
+
+                    response = request.CreateResponse(HttpStatusCode.OK, listProductCategory.Count);
+                }
+
                 return response;
             });
         }

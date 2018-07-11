@@ -216,3 +216,5 @@ C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale
 C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.WEB\obj\Debug\BookSale.WEB.csprojResolveAssemblyReference.cache
 C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.WEB\obj\Debug\BookSale.WEB.dll
 C:\Users\P\Documents\Visual Studio 2015\Projects\TTTT\Book_Sale_Website\BookSale\BookSale.WEB\obj\Debug\BookSale.WEB.pdb
+E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.WEB\bin\Vse.Web.Serialization.dll
+E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.WEB\bin\Vse.Web.Serialization.pdb

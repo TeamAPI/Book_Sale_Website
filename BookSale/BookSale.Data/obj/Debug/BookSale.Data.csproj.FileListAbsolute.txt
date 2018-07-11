@@ -51,3 +51,8 @@ E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSa
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB5.resources
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB6.resources
 E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.InitialDB7.resources
+E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
+E:\ke_hoach_hoc_tap\Mon_Hoc\HK3_2017-2018\TTTT\Book_Sale_Website\BookSale\BookSale.Data\obj\Debug\BookSale.Data.Migrations.IntergrateAspnetIdentity.resources
