@@ -9,11 +9,11 @@ namespace BookSale.Service
 {
     public interface IProductService
     {
-        void Add(Product product);
+        Product Add(Product product);
 
         void Update(Product product);
 
-        void Delete(int id);
+        Product Delete(int id);
 
         IEnumerable<Product> Getall();
 
@@ -43,10 +43,10 @@ namespace BookSale.Service
             this._unitOfWork = unitOfWork;
         }
 
-        public void Add(Product product)
+        public Product Add(Product Product)
         {
-            //var product = _productRepository.Add(Product);
-            //_unitOfWork.Commit();
+            var product = _productRepository.Add(Product);
+            _unitOfWork.Commit();
             //if (!string.IsNullOrEmpty(Product.Tags))
             //{
             //    string[] tags = Product.Tags.Split(',');
@@ -66,13 +66,14 @@ namespace BookSale.Service
             //        productTag.ProductID = Product.ID;
             //        productTag.TagID = tagId;
             //        _productTagRepository.Add(productTag);
-            //        //    }
             //    }
-            }
+            //}
+            return product;
+        }
 
-        public void Delete(int id)
+        public Product Delete(int id)
         {
-            _productRepository.Delete(id);
+            return _productRepository.Delete(id);
         }
 
         public IEnumerable<Product> Getall()
@@ -80,23 +81,23 @@ namespace BookSale.Service
             return _productRepository.GetAll(new string[] {"ProductCategory", "Supplyhouses",});
         }
 
-        public IEnumerable<Product> GetAllByProductCategory(int productCategory, int page, int pagesize, out int totalrow)
+        public IEnumerable<Product> GetAllByProductCategory(int productCategoryID, int page, int pagesize, out int totalrow)
         {
-            var query = _productRepository.GetMulti(x => x.ProductStatus == "Đang hoạt động" && x.ProductCategoryID == productCategory);
+            var query = _productRepository.GetMulti(x => x.ProductStatus == "Đang hoạt động" && x.ProductCategoryID == productCategoryID);
             totalrow = query.Count();
             return query.Skip((page - 1) * pagesize).Take(pagesize);
         }
 
-        public IEnumerable<Product> GetAllBySuppluhouse(int supplyHouse, int page, int pagesize, out int totalrow)
+        public IEnumerable<Product> GetAllBySuppluhouse(int supplyHouseID, int page, int pagesize, out int totalrow)
         {
-            var query = _productRepository.GetMulti(x => x.ProductStatus == "Đang hoạt động" && x.SupplyhouseID == supplyHouse);
+            var query = _productRepository.GetMulti(x => x.ProductStatus == "Đang hoạt động" && x.SupplyhouseID == supplyHouseID);
             totalrow = query.Count();
             return query.Skip((page - 1) * pagesize).Take(pagesize);
         }
 
         public IEnumerable<Product> GetAllPaging(int page, int pagesize, out int totalrow)
         {
-            var query = _productRepository.GetMulti(x => x.ProductStatus == "Đang hoạt động");
+            var query = _productRepository.GetMulti(x => x.ProductStatus == "Đang hoạt động", new string[] { "ProductCategory", "Supplyhouses", });
             totalrow = query.Count();
             return query.Skip((page - 1) * pagesize).Take(pagesize);
         }
@@ -136,8 +137,6 @@ namespace BookSale.Service
                 query = _productRepository.GetMulti(x => x.ProductStatus == "Đang hoạt động" , new string[] { "ProductCategory", "Supplyhouses" });
             return query;
         }
-
-
 
     }
 }

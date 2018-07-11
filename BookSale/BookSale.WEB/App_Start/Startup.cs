@@ -4,11 +4,14 @@ using Autofac.Integration.WebApi;
 using BookSale.Data;
 using BookSale.Data.Infrastructure;
 using BookSale.Data.Repositories;
+using BookSale.Model.Models;
 using BookSale.Service;
+using Microsoft.AspNet.Identity;
 using Microsoft.Owin;
-using Microsoft.Owin.Security.OAuth;
+using Microsoft.Owin.Security.DataProtection;
 using Owin;
 using System.Reflection;
+using System.Web;
 using System.Web.Http;
 using System.Web.Mvc;
 
@@ -20,10 +23,9 @@ namespace BookSale.WEB.App_Start
     {
         public void Configuration(IAppBuilder app)
         {
-         
             // For more information on how to configure your application, visit http://go.microsoft.com/fwlink/?LinkID=316888
             ConfigAutofac(app);
-            //ConfigureAuth(app);
+            ConfigureAuth(app);
         }
 
         private void ConfigAutofac(IAppBuilder app)
@@ -36,7 +38,12 @@ namespace BookSale.WEB.App_Start
             builder.RegisterType<DbFactory>().As<IDbFactory>().InstancePerRequest();
 
             builder.RegisterType<BookSaleDbContext>().AsSelf().InstancePerRequest();
-
+            //Identity
+            builder.RegisterType<ApplicationUserStore>().As<IUserStore<ApplicationUser>>().InstancePerRequest();
+            builder.RegisterType<ApplicationUserManager>().AsSelf().InstancePerRequest();
+            builder.RegisterType<ApplicationSignInManager>().AsSelf().InstancePerRequest();
+            builder.Register(c => HttpContext.Current.GetOwinContext().Authentication).InstancePerRequest();
+            builder.Register(c => app.GetDataProtectionProvider()).InstancePerRequest();
             // Repository
             builder.RegisterAssemblyTypes(typeof(ProductRepository).Assembly)
                 .Where(t => t.Name.EndsWith("Repository"))
